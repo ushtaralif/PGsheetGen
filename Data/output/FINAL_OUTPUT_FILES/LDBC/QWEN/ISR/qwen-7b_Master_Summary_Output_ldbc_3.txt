@@ -1,0 +1,74 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: N/A
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To provide comprehensive data for social network analysis and interaction studies.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining and social network analysis.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: N/A
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To model interactions and relationships within a social network context.
+
+Data Collection:
+* Source of the data: Real-world interactions extracted from forums and profiles.
+* Time frame when it was collected/made: Collected over various dates ranging from 2010 to 2012.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used were still available at the time of collection.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Sample
+
+Updated Fields:
+* Q10: Is there any specific forum or community focus in the dataset?
+Q10-Ans: Yes, the dataset includes multiple forums such as those related to albums of individuals like Abdul Haris, Aitzaz Khan, Farhad Ayar, and others.
+
+* Q11: What are the primary activities within these communities?
+Q11-Ans: The primary activities include discussions, sharing, and interaction among members of the forums, such as liking posts and comments, knowing each other, and working at companies. For instance, Alberto Costa (ID: 24189255819001) is a member of a forum titled "Album 0 of Alberto Costa" created on August 9, 2012, and Tomi Blomqvist (ID: 24189255811945) knows Amit Sharma (ID: 28587302330216) on November 27, 2012. New examples include:
+- Chen Zhang (ID: 4398046518002) knows Jun Xu (ID: 30786325579883) on August 10, 2012.
+- Asim Qureshi (ID: 17592186047592) likes a comment on May 17, 2012.
+- Ali Lo (ID: 10995116284554) knows Pedro Gonzalez (ID: 15393162792099) on September 1, 2012.
+- Zhong Wu (ID: 926) knows Eve-Mary Thai Hoang (ID: 2866) on May 29, 2011.
+- Hao Wang (ID: 15393162789375) likes a comment on July 23, 2012.
+- Michael Li (ID: 2199023263676) is a member of a forum titled "Album 3 of Michael Li" created on September 18, 2011.
+- Carlos Gonzalez (ID: 32985348834430) knows Sergio Abascal (ID: 35184372093832) on November 1, 2012.
+- John Sharma (ID: 13194139543443) is a member of a forum titled "Album 19 of John Sharma" created on December 21, 2011.
+- Eugene Moke Kabila (ID: 13194139536991) knows Eric Nariman (ID: 19791209300949) on November 5, 2012.
+- Wei Zhu (ID: 17592186045799) knows Cornelis Balawan (ID: 32985348834020) on October 17, 2012.
+- John Wilson (ID: 28587302323660) likes a post on May 23, 2012.
+- Chan Shin (ID: 3850) is a member of a forum titled "Wall of Chan Shin" created on February 25, 2010.
+- Kristine Do (ID: 4398046517533) knows Chau Nguyen (ID: 21990232565541) on December 9, 2011.
+- Wilhelm Engel (ID: 17592186045896) knows Angel Mamo (ID: 26388279072707) on June 19, 2012.
+- Deepak Sharma (ID: 6597069770651) is a member of a forum titled "Wall of Deepak Sharma" created on August 20, 2010.
+- Lev Dobrunov (ID: 30786325580265) works at Aerolimousine (ID: 1035) since May 22, 2012.
+- Benedict Chen (ID: 4398046520890) knows Peng Wang (ID: 6597069770579) on March 26, 2011.
+- Dennis Murray (ID: 2199023258844) knows Joseph Bona (ID: 21990232564614) on August 30, 2012.
+- Mario Castelli (ID: 19791209310154) knows Bill Armstrong (ID: 30786325588189) on November 27, 2012.
+- Zsolt Laszlo (ID: 8796093029208) likes a post on July 7, 2012.
+- Lomana Trésor Kanam (ID: 6575) knows Alfredo Fernandez (ID: 2199023260790) on December 22, 2011.
+- Muhammad Khan (ID: 4398046519052) is a member of a forum titled "Album 6 of Muhammad Khan" created on June 16, 2010.
+- Sinn Sihanouk (ID: 4398046515538) is a member of a forum titled "Album 7 of Sinn Sihanouk" created on July 1, 2012.
+- Ashin Law-Yone (ID: 13194139538886) likes a comment on October 14, 2011.
+- Patricia Gomez (ID: 8796093024780) works at Aero_Ejecutivos (ID: 1541) since September 28, 2010.
+- Zakhele Manyatsi (ID: 4398046516046) is a member of a forum titled "Album 30 of Zakhele Manyatsi" created on December 19, 2011.
+- Karan Khan (ID: 4398046516688) likes a post on September 7, 2012.
+- Francis Santos (ID: 13194139534718) likes a comment on November 22, 2012.
+- Jie Wu (ID: 10995116285000) likes a comment on August 6, 2012.
+- Abdul Baseer Sadat (ID: 10995116280412) is a member of a forum titled "Album 1 of Abdul Baseer Sadat" created on April 8, 2012.
+- Gregorio Cruz (ID: 2

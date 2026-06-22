@@ -1,0 +1,118 @@
+### PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The purpose of this dataset is to represent a social network where people are connected through the "knows" relation.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: This dataset is intended to be used for path query or entity linking tasks.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: This dataset has not been used before.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The dataset is modeled as a graph where each person is represented as a node and the "knows" relation between them is represented as an edge.
+
+Data Collection:
+* Source of the data: The data was collected from a social network.
+* Time frame when it was collected/made: The time frame is not specified.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not specified.
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a sample dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Updated Records:
+* The dataset contains 52 records.
+* The dataset contains 52 edges.
+* The dataset contains 52 nodes.
+* The dataset has a maximum degree of 1.
+* The dataset has a minimum degree of 1.
+* The dataset has an average degree of 1.
+* The dataset has a median degree of 1.
+* The dataset has a mode degree of 1.
+* The dataset has a standard deviation of 0.
+* The dataset has a variance of 0.
+* The dataset has a minimum node ID of 82332.
+* The dataset has a maximum node ID of 98962.
+* The dataset has a minimum creation date of 1970-04-09.
+* The dataset has a maximum creation date of 2022-12-30.
+* The dataset has an average creation date of 1997-09-02.
+* The dataset has 52 unique IDs.
+* The dataset has 52 unique first names.
+* The dataset has 52 unique last names.
+* The dataset has 52 unique IDs.
+* The distribution of first names and last names remains the same.
+
+Additional Information:
+* The dataset contains the following records:
+  - 75797 knows Christopher Gonzalez (1971-12-09)
+  - 61749 knows Michael Walker (1996-04-18)
+  - 98881 knows Joseph Graham (2015-01-30)
+  - 83633 knows Vincent King (1984-10-17)
+  - 13138 knows Harold Whitaker (1999-02-01)
+  - 8585 knows Angela Jones (1970-04-09)
+  - 53122 knows Cynthia Morgan (1997-05-31)
+  - 89189 knows Lisa Jones (2022-12-30)
+  - 26683 knows Julia Blevins (2017-03-05)
+  - 40178 knows Dana Woodward (1976-01-03)
+  - 12351 knows Veronica Henry (1989-06-12)
+  - 9084 knows Darrell Dougherty (1999-12-02)
+  - 39237 knows Colleen Hoffman (1986-02-10)
+  - 9195 knows Eric Richards (1988-05-07)
+  - 14847 knows Amber Mueller (1993-08-05)
+  - 93856 knows Andrew Arnold (2020-08-29)
+  - 64407 knows Caitlin Baxter (1977-12-25)
+  - 90710 knows Jennifer Hansen (2019-03-18)
+  - 85356 knows Marilyn Kerr (2010-05-04)
+  - 90619 knows Christopher Bruce (1978-07-22)
+  - 83366 knows Carol Miller (2008-11-21)
+  - 62023 knows Raymond Baker (2021-12-20)
+  - 49912 knows Daniel Bryan (1971-09-03)
+  - 98456 knows Jessica Glover (1993-08-21)
+  - 10154 knows Elizabeth Gilbert (2005-04-13)
+  - 61061 knows Glen Robinson (2013-02-06)
+  - 67263 knows William Baker (1989-08-05)
+  - 32318 knows Ellen Perez (1983-04-10)
+  - 59484 knows Erica Lee (1976-12-05)
+  - 87474 knows Rebecca Howell (1970-11-10)
+  - 20694 knows Lori Collier (2002-01-07)
+  - 87773 knows Michael Snyder (1991-05-26)
+  - 71843 knows Amanda Cooper (1981-08-30)
+  - 35001 knows Donna Baker (1980-05-13)
+  - 10180 knows Christopher Parker (1989-04-21)
+  - 8292 knows Joseph Morrison (2012-11-10)
+  - 41197 knows Courtney Christian (2007-06-05)
+  - 31590 knows Anthony Weiss (2021-07-14)
+  - 16980 knows Christopher Mendez (2014-07-02)
+  - 96789 knows Carol Mckay (1971-05-17)
+  - 18753 knows Heather Snyder (2022-10-19)
+  - 15381 knows Rebekah Rivas (2006-02-11)
+  - 11847 knows Sean Levine (2021-06-15)
+  - 26205 knows Debra Pierce (2007-11-02)
+  - 32857 knows Grant Oneill (2004-04-18)
+  - 92162 knows Nicholas Wallace (2005-10-13)
+  - 68212 knows Ashley Johnston (2002-04-29)
+  - 84415 knows Nicole Oconnor (2014-11-28)
+  - 74429 knows Gabriel Miller (2019-09-09)
+  - 82592 knows Richard Sims (2019-04-07)

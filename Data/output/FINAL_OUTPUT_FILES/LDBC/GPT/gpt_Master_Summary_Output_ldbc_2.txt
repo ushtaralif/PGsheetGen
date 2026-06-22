@@ -1,0 +1,43 @@
+PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Social network / online social media property graph (persons, forums, posts, comments, companies, places, interactions)
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model and analyze social-network interactions with typed, time-stamped edges (hasMember, knows, likeComment, like_post), affiliations via workAt (with workFrom), and geolocation via isLocatedIn and isPartOf in a property graph.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Graph querying and mining (path queries, pattern matching), social network analysis, recommendation/link prediction, and entity linking via DBpedia URIs.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: N/A
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To capture heterogeneous entities with rich properties and typed, time-stamped relationships consistent with a property-graph schema.
+
+Data Collection:
+* Source of the data: Social network interaction data (persons, forums/walls/albums, posts, comments, likes, friendships, memberships); DBpedia for Company/Organization entities (airlines, universities) and Place (cities, countries, continents) entities/URLs, Place hierarchies (isPartOf City->Country->Continent), and company locations (isLocatedIn).
+* Time frame when it was collected/made: 2010-01-02 to 2012-11-28 (UTC)
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: N/A
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Sample
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A

@@ -1,0 +1,74 @@
+### Updated PG-Sheet Summary
+
+### Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+### Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To provide a collection of articles across various domains such as computer science, engineering, and technology for research and analysis purposes.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Research, citation analysis, and academic studies.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes, the dataset has been used in various academic papers and research studies due to its comprehensive coverage of scholarly articles and their interconnections.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To facilitate efficient querying, analysis, and visualization of the relationships between articles, authors, venues, and keywords.
+
+### Data Collection:
+* Source of the data:
+* Time frame when it was collected/made: Not specified in the provided chunk.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The data appears to be collected from various journals and conferences. The methods used are not specified in the provided chunk, but the data seems to be current as of the latest entries.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+### Distribution and Maintenance:
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: 
+  - [List of papers using the dataset can be found in the provided chunk, but no specific papers are mentioned here.]
+
+Note: The provided chunk does not specify any new information regarding the license, distribution date, modification date, or responsible parties for hosting and maintaining the dataset. Therefore, these fields remain unchanged.
+
+### Updated Answers Based on New Dataset Chunk:
+
+* Q10: What is the time frame when the dataset was collected/made?
+Q10-Ans: Not specified in the provided chunk.
+
+* Q11: Which journals and conferences contributed to the dataset?
+Q11-Ans: Journals and conferences such as IEEE Transactions on Broadcasting, European Signal Processing Conference, CHI, MILCOM, and others.
+
+* Q12: Are there any new authors added to the dataset?
+Q12-Ans: Yes, new authors like Adel M. Alimi, Jiang Liu, Michal Wozniak, Meng Zhang, Barbara Mazzolai, Alexander Hall, Lei Li, Justyna Szpond, Wei Chen, Christopher Nimsky, Xiaojun Jing, and others have been added.
+
+* Q13: Are there any new venues added to the dataset?
+Q13-Ans: Yes, new venues like VERCE, ICCCN, eScience, PERCOMW, and others have been added.
+
+* Q14: Are there any new keywords added to the dataset?
+Q14-Ans: Yes, new keywords like "Adjoint-based mesh adaptation," "advanced on-chipsystems," "subsurface depth function," "photographic composition rules," "Magnetohydrodynamics," "coexistence," "keypoint detection," "power spectrum," "interrat kpi," "65N30," "mathematical logic," "branch-and-bound," "imaging," "dem-based georegistration," "Behavior-Driven Development," "power function," "cluster network," "adaptive systems," "simulation-based scheduling approach," "Euclidean isometries," and others have been added.
+
+* Q15: Are there any new citations added to the dataset?
+Q15-Ans: Yes, new citations have been added, linking articles to other articles, authors, and venues.
+
+* Q16: Are there any new articles added to the dataset?
+Q16-Ans: Yes, new articles like "A game-theoretic approach to fine surface registration without initial motion estimation" (2010), "Gabor feature based classification using LDA/QZ algorithm for face recognition" (2006), "Reshaping 3D facial scans for facial appearance modeling and 3D facial expression analysis" (2012), "Qualitative functional decomposition analysis of evolved neuromorphic flight controllers" (2012), "Transforming rectangular and polar iris images to enable cancelable biometrics" (2010), "Normalized Ranking Based Particle Swarm Optimizer for Many Objective Optimization." (2017), "Directional distributional similarity for lexical inference" (2010), "Flow Splitting with Fate Sharing in a Next Generation Transport Services Architecture" (2009), "Conditional Diagnosability Measures for Large Multiprocessor Systems" (2005), "Processing of probabilistic skyline queries using MapReduce" (2015), "Two-level volume rendering — fusing MIP and DVR" (2000), "Performance bounds on compressed sensing with Poisson noise" (2009), "A modular action description language" (2006), "A general framework for PRM motion planning" (2003), "Image-Based Visual Servoing for Nonholonomic Mobile Robots Using Epipolar Geometry" (2007), "Bayesian modeling of dynamic scenes for object detection." (2005), "Extracting Coarse-Grained Parallelism in Program Loops with the Slicing Framework" (2007), "Bit-Level Optimization of Shift-and-Add Based FIR Filters" (2007), "MPEG-2 profile transcoding in MC-DCT domain" (2001), "Impact of SoC power management techniques on verification and testing" (2009), "An automatic recognition approach of constellation satellites' usability based on clustering" (2013), "Animated Talking Head with Personalized 3D Head Model" (1998), "New Construction Of Quaternary Sequences With Good Correlation Using Binary Sequences With Good Correlation" (2011), "Localizing Microaneurysms in Fundus Images Through Singular Spectrum Analysis." (2017), "Continuous Shape Changing Locomotion Of 32-Legged Spherical Robot" (2018), "A task-invariant cognitive reserve network." (2018), "A Low-Cost Sensor for Aging and Late Transitions Detection in Modern FPGAs" (2011), "From OWL-S Descriptions to Petri Nets" (2007), "Update on Tiger" (2006), "Ship classification by superstructure moment invariants" (2009), "Hierarchical Self-supervised Learning for Medical Image Segmentation Based on Multi-domain Data Aggregation" (2021), "A model-based approach to modeling a hybrid simulation platform (work in progress)" (2014), "Explore and exploit in wireless ad hoc emergency response networks" (2014), "Cross-Industry Innovation: The Transfer of a Service-Based Business Model from the Video Game Industry to the Music Industry." (2011), "Clutter Edges Detection Algorithms for Structured Clutter Covariance Matrices" (2022), "The Temporal-Spatial Modeling of Vocabulary for Language Monitoring" (2009), "Trans-situated use of integrated information systems." (2012), "Health support intelligent system for diabetic patient by mobile phone" (2005), "Reconfigurable Intelligent Surface Enabled Full-Duplex/Half-Duplex Cooperative Non-Orthogonal Multiple Access" (2022), "Condition Monitoring of an Induction Motor Stator Windings Via Global Optimization Based on the Hyperbolic Cross Points" (2015), "You've Been Acquired!" (2015), "Participation in ICT-Enabled Meetings" (2011), "On automated message processing in electronic commerce and work support systems: speech act theory and expressive felicity" (1997), "On the design of interleavers for BICM transmission" (2008), "Modeling and simulation of oncology clinic operations in discrete event system specification" (2018), "PIDGIN: ontology alignment using web text as interlingua" (2013), "The Impact of Information Technology on Academic Scientists' Productivity and Collaboration Patterns" (2010), "Optimal entropy-constrained non-uniform scalar quantizer design for low bit-rate pixel domain DVC" (2014), "Differential Methods for Finding Independent Sets in Hypergraphs" (2006).
+
+This summary includes all the new articles added to the dataset.
+
+* Q17: Are there any new edges added to the dataset?
+Q17-Ans: Yes, new edges representing citations, authorships, key-word associations, and venue associations have been added.
+
+* Q18: Are there

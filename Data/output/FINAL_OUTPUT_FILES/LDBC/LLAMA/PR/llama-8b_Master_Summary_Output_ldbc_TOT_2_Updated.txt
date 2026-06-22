@@ -1,0 +1,210 @@
+### === NODE TYPES ===
+
+NODE TYPE: Forum
+  • Label
+  • creationDate
+  • id
+  • title
+
+NODE TYPE: Person
+  • Label
+  • birthday
+  • browserUsed
+  • creationDate
+  • email
+  • firstName
+  • gender
+  • id
+  • language
+  • lastName
+  • locationIP
+  • knows: 
+    • Person1Id
+      • Person2Id
+        • creationDate
+        • type
+  • likes: 
+    • Post: 
+      • id
+        • creationDate
+        • imageFile
+        • locationIP
+        • browserUsed
+        • language
+        • content
+        • length
+    • Comment: 
+      • id
+        • creationDate
+        • browserUsed
+        • content
+        • length
+        • locationIP
+  • memberOf: 
+    • Forum: 
+      • id
+        • creationDate
+        • title
+  • workAt: 
+    • id
+      • type
+      • workFrom
+  • likes_post: 
+    • Post: 
+      • id
+        • creationDate
+        • imageFile
+        • locationIP
+        • browserUsed
+        • language
+        • content
+        • length
+  • location: 
+    • id
+      • type
+      • url
+  • isLocatedIn: 
+    • id
+      • type
+  • locationIP: 148.237.59.25
+    • Label: Juan Bravo
+    • birthday: 1983-09-28
+    • browserUsed: Chrome
+    • creationDate: 2011-07-08T14:08:04.090+00:00
+    • email: Juan19791209303725@zoho.com;Juan19791209303725@gmx.com
+    • firstName: Juan
+    • gender: female
+    • language: es;en
+    • lastName: Bravo
+    • knows: 
+      • Person1Id: 19791209303725
+        • Person2Id: 21990232557577
+          • creationDate: 2012-10-21T00:07:11.107+00:00
+          • type: knows
+    • likes: 
+      • Comment: 
+        • id: 2336463294555
+          • creationDate: 2012-11-25T06:24:56.789+00:00
+          • browserUsed: Firefox
+          • content: About Karma Chameleon, on the US Billboard Hot 100 About The Streak, gles chart.
+          • length: 81
+          • locationIP: 213.55.110.111
+  • id: 21990232557577
+    • Label: Mohamed Aouadhi
+    • birthday: 1985-07-25
+    • browserUsed: Chrome
+    • creationDate: 2011-09-20T08:08:48.333+00:00
+    • email: Mohamed21990232557577@yahoo.com;Mohamed21990232557577@gmx.com;Mohamed21990232557577@gmail.com;Mohamed21990232557577@singalongcenter.com;Mohamed21990232557577@hotmail.com
+    • firstName: Mohamed
+    • gender: female
+    • language: ar;en
+    • lastName: Aouadhi
+    • locationIP: 197.25.118.232
+    • knows: 
+      • Person1Id: 21990232557577
+        • Person2Id: 15393162795988
+          • creationDate: 2011-07-13T03:08:58.722+00:00
+          • type: knows
+  • id: 15393162795988
+    • Label: Manuel Montt
+    • birthday: 1987-04-04
+    • browserUsed: Firefox
+    • creationDate: 2011-04-15T06:15:17.077+00:00
+    • email: Manuel15393162795988@hotmail.com;Manuel15393162795988@gmx.com;Manuel15393162795988@zoho.com
+    • firstName: Manuel
+    • gender: female
+    • language: es;en
+    • lastName: Montt
+    • locationIP: 186.21.11.20
+    • knows: 
+      • Person1Id: 15393162795988
+        • Person2Id: 6328
+          • creationDate: 2012-04-17T22:59:56.082+00:00
+          • type: knows
+  • id: 6328
+    • Label: Emperor of Brazil Silva
+    • birthday: 1985-02-05
+    • browserUsed: Chrome
+    • creationDate: 2010-02-24T23:13:06.382+00:00
+    • email: Emperor.of.Brazil6328@gmail.com
+    • firstName: Emperor of Brazil
+    • gender: female
+    • language: pt;en
+    • lastName: Silva
+    • locationIP: 200.0.11.206
+    • knows: 
+      • Person1Id: 6328
+        • Person2Id: 21990232564322
+          • creationDate: 2012-04-17T22:59:56.082+00:00
+          • type: knows
+  • id: 21990232564322
+    • Label: John Wilson
+    • birthday: 1984-05-05
+    • browserUsed: Firefox
+    • creationDate: 2011-11-03T20:30:41.513+00:00
+    • email: John21990232564322@gmx.com
+    • firstName: John
+    • gender: male
+    • language: fr;en
+    • lastName: Wilson
+    • locationIP: 24.146.10.39
+    • knows: 
+      • Person1Id: 21990232564322
+        • Person2Id: 26388279072795
+          • creationDate: 2012-08-09T02:20:18.069+00:00
+          • type: likeComment
+  • id: 26388279072795
+    • Label: Chen Zhang
+    • birthday: 1985-10-03
+    • browserUsed: Chrome
+    • creationDate: 2012-02-22T09:18:38.640+00:00
+    • email: Chen26388279072795@gmail.com;Chen26388279072795@yahoo.com;Chen26388279072795@gmx.com;Chen26388279072795@hotmail.com
+    • firstName: Chen
+    • gender: female
+    • language: zh;en
+    • lastName: Zhang
+    • locationIP: 14.103.158.13
+    • knows: 
+      • Person1Id: 26388279072795
+        • Person2Id: 8796093032304
+          • creationDate: 2012-07-01T02:07:55.412+00:00
+          • type: knows
+  • id: 8796093032304
+    • Label: Eli Chihab
+    • birthday: 1982-09-08
+    • browserUsed: Internet Explorer
+    • creationDate: 2010-09-23T10:55:58.034+00:00
+    • email: Eli8796093032304@gmail.com
+    • firstName: Eli
+    • gender: female
+    • language: ar;fr;en
+    • lastName: Chihab
+    • locationIP: 193.194.1.140
+    • knows: 
+      • Person1Id: 8796093032304
+        • Person2Id: 21990232561626
+          • creationDate: 2012-07-01T02:07:55.412+00:00
+          • type: knows
+  • id: 21990232561626
+    • Label: John Manalo
+    • birthday: 1980-06-19
+    • browserUsed: Firefox
+    • creationDate: 2011-10-06T08:31:41.568+00:00
+    • email: John21990232561626@gmail.com;John21990232561626@gmx.com;John21990232561626@hotmail.com
+    • firstName: John
+    • gender: male
+    • language: en;tl
+    • lastName: Manalo
+    • locationIP: 112.109.2.140
+    • knows: 
+      • Person1Id: 21990232561626
+        • Person2Id: 4617
+          • creationDate: 2012-10-29T12:16:54.155+00:00
+          • type: knows
+  • id: 4617
+    • Label: Walter Muller
+    • birthday: 1983-08-06
+    • browserUsed: Chrome
+    • creationDate: 2010-02-26T14:11:49.962+00:00
+    • email: Walter4617@gmx.com;Walter4617@gmail.com;Walter4617@zoho.com;Walter4617@yahoo.com
+    • firstName:

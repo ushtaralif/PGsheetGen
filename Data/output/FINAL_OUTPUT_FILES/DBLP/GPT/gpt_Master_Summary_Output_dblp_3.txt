@@ -1,0 +1,44 @@
+PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Scholarly bibliographic/citation network (articles, authors, keywords, venues, and citation links)
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes (real-world scholarly metadata)
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model scholarly publications and their relationships for analysis of citations, authorship, keywords, and venues within a unified property graph.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Citation analysis, entity linking, recommendation/link prediction, bibliographic data mining, and path/traversal queries over articles–authors–keywords–venues.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Unknown from the provided information.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: Publications, authors, keywords, and venues form naturally connected entities; a property graph with cites, hasAuthors, hasKey, and inVenue edges enables efficient traversal, aggregation, and analytics.
+
+Data Collection:
+* Source of the data: Scholarly publication records compiled into property-graph JSONL files present in this chunk: article_article.jsonl (cites edges) and article_keyword.jsonl (hasKey edges); nodes present are articles and keywords. Authors/hasAuthors and venues/inVenue exist in the schema but are not present in this chunk.
+* Time frame when it was collected/made: Not specified; the content spans publication years 1973–2022 (this chunk).
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Likely automated extraction/ingestion of bibliographic metadata and citations from publisher/databases into a property graph schema; availability of original collection pipelines is not specified.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Sample (this is a dataset chunk).
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A

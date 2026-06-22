@@ -1,0 +1,43 @@
+PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Social network (Person–knows–Person)
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: Represent Person-to-Person “knows” relationships with temporal (creationDate) attributes.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Social network analysis, graph mining, path queries, link prediction.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Not specified.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To model interpersonal connections (knows edges) between Person nodes along with the time they were created.
+
+Data Collection:
+* Source of the data: Not specified.
+* Time frame when it was collected/made: Not specified; edge creationDate values across provided chunks range from 1970-01-07 to 2023-12-11; in this chunk, from 1970-04-09 to 2022-12-30.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Not specified.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Sample (chunk provided).
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A

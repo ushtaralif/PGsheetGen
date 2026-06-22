@@ -1,0 +1,198 @@
+### NODE TYPES:
+
+NODE TYPE: Forum
+  • Label
+  • creationDate
+  • id
+  • title
+  • hasAlbum
+  • members
+  • albums
+  • hasMember
+  • isLocatedIn
+
+NODE TYPE: Person
+  • 4398046518997
+    • Label
+    • birthday: 1980-12-29
+    • browserUsed: Firefox
+    • creationDate: 2010-06-08T03:49:44.932+00:00
+    • email: Arjun4398046518997@gmx.com;Arjun4398046518997@gmail.com;Arjun4398046518997@hotmail.com;Arjun4398046518997@yahoo.com
+    • firstName: Arjun
+    • gender: female
+    • id: 4398046518997
+    • language: te;kn;en
+    • lastName: Sen
+    • locationIP: 27.61.219.156
+    • knows:
+      • Person2Id: 19791209302558
+      • creationDate: 2012-04-14T02:45:22.853+00:00
+      • type: knows
+    • workFrom: 
+    • likes:
+      • CommentId: 1786707534044
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+    • workAt: 
+    • isLocatedIn: 
+    • memberOf:
+      • creationDate: 2011-01-21T10:58:07.674+00:00
+      • type: hasMember
+      • ForumId: 824633748005
+    • likesComment:
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+      • CommentId: 1786707534044
+    • like_post:
+      • creationDate: 2012-08-13T15:09:14.632+00:00
+      • type: like_post
+      • PostId: 2061585480684
+    • hasMember:
+      • creationDate: 2011-01-21T10:58:07.674+00:00
+      • type: hasMember
+      • ForumId: 824633748005
+    • isLocatedIn: 
+    • likesComment:
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+      • CommentId: 1786707534044
+
+NODE TYPE: Person
+  • 17592186049024
+    • Label
+    • birthday: 1986-04-24
+    • browserUsed: Internet Explorer
+    • creationDate: 2011-05-23T12:58:50.548+00:00
+    • email: Consuelo17592186049024@gmx.com;Consuelo17592186049024@gmail.com;Consuelo17592186049024@yahoo.com
+    • firstName: Consuelo
+    • gender: female
+    • id: 17592186049024
+    • language: es;en
+    • lastName: Rodriguez
+    • locationIP: 190.96.197.246
+    • knows:
+      • Person2Id: 19791209302558
+      • creationDate: 2012-04-14T02:45:22.853+00:00
+      • type: knows
+    • workFrom: 
+    • likes:
+      • CommentId: 1786707534044
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+    • workAt: 
+    • isLocatedIn: 
+    • memberOf: 
+    • likesComment:
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+      • CommentId: 1786707534044
+    • like_post:
+      • creationDate: 
+      • type: 
+      • PostId: 
+    • hasMember: 
+    • isLocatedIn: 
+    • likesComment:
+      • creationDate: 2012-04-30T08:33:53.610+00:00
+      • type: likeComment
+      • CommentId: 1786707534044
+
+NODE TYPE: Person
+  • 19791209302558
+    • Label
+    • birthday: 1985-05-25
+    • browserUsed: Firefox
+    • creationDate: 2011-08-11T09:51:20.977+00:00
+    • email: Alberto19791209302558@zoho.com;Alberto19791209302558@yahoo.com
+    • firstName: Alberto
+    • gender: female
+    • id: 19791209302558
+    • language: es;en
+    • lastName: Arango
+    • locationIP: 190.1.166.192
+    • knows:
+      • Person2Id: 28587302322635
+      • creationDate: 2012-05-28T11:22:21.992+00:00
+      • type: knows
+    • workFrom: 
+    • likes:
+      • CommentId: 2336463283518
+      • creationDate: 2012-11-18T15:15:50.810+00:00
+      • type: likeComment
+    • workAt: 
+    • isLocatedIn: 
+    • memberOf:
+      • creationDate: 2012-04-03T15:35:38.182+00:00
+      • type: hasMember
+      • ForumId: 1786706488952
+    • likesComment:
+      • creationDate: 2012-11-18T15:15:50.810+00:00
+      • type: likeComment
+      • CommentId: 2336463283518
+    • like_post:
+      • creationDate: 
+      • type: 
+      • PostId: 
+    • hasMember:
+      • creationDate: 2012-04-03T15:35:38.182+00:00
+      • type: hasMember
+      • ForumId: 1786706488952
+    • isLocatedIn: 
+    • likesComment:
+      • creationDate: 2012-11-18T15:15:50.810+00:00
+      • type: likeComment
+      • CommentId: 2336463283518
+
+NODE TYPE: Person
+  • 28587302330494
+    • Label
+    • birthday: 1981-01-22
+    • browserUsed: Firefox
+    • creationDate: 2012-04-01T03:59:06.270+00:00
+    • email: Josue28587302330494@gmail.com;Josue28587302330494@gmx.com;Josue28587302330494@zoho.com;Josue28587302330494@yahoo.com
+    • firstName: Josue
+    • gender: female
+    • id: 28587302330494
+    • language: es;en
+    • lastName: Rivas
+    • locationIP: 200.12.173.212
+    • knows:
+      • Person2Id: 35184372097727
+      • creationDate: 2012-10-22T01:26:04.577+00:00
+      • type: knows
+    • workFrom: 
+    • likes:
+      • CommentId: 2336463308318
+      • creationDate: 2012-11-26T04:56:58.426+00:00
+      • type: likeComment
+    • workAt: 
+    • isLocatedIn: 
+    • memberOf:
+      • creationDate: 2012-04-03T15:35:38.182+00:00
+      • type: hasMember
+      • ForumId: 1786706488952
+    • likesComment:
+      • creationDate: 2012-11-26T04:56:58.426+00:00
+      • type: likeComment
+      • CommentId: 2336463308318
+    • like_post:
+      • creationDate: 
+      • type: 
+      • PostId: 
+    • hasMember:
+      • creationDate: 2012-04-03T15:35:38.182+00:00
+      • type: hasMember
+      • ForumId: 1786706488952
+    • isLocatedIn: 
+    • likesComment:
+      • creationDate: 2012-11-26T04:56:58.426+00:00
+      • type: likeComment
+      • CommentId: 2336463308318
+
+NODE TYPE: Person
+  • 32985348836333
+    • Label
+    • birthday: 1986-05-08
+    • browserUsed: Firefox
+    • creationDate: 2012-07-13T04:54:15.174+00:00
+    • email: Kirill32985348836333@gmx.com;Kirill329853488363

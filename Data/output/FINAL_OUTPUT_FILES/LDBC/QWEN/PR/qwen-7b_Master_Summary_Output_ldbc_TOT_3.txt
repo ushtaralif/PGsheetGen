@@ -1,0 +1,83 @@
+
+### Updated PG-Sheet
+
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network and Community Forums
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To provide a comprehensive dataset for social network analysis and community forum research.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining, entity linking, and community forum analysis.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes, the dataset was chosen because it offers rich information about social interactions within forums and communities.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The graph modeling allows for the representation of complex relationships between users, posts, comments, and forums, facilitating in-depth analysis.
+
+Data Collection:
+* Source of the data: Real-world data from various forums and community platforms.
+* Time frame when it was collected/made: Collected over multiple years, starting from 2010 up to 2012.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Methods included web scraping and API access. These methods are still available and widely used.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a sample dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): 2023-10-XX
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Updated Details:
+* Q10: Any new nodes added or removed since the last update?
+Q10-Ans: No new nodes have been added or removed.
+
+* Q11: Any new edges added or removed since the last update?
+Q11-Ans: Yes, several new edges have been added as indicated below:
+
+- **New edge of type `likeComment` between Person ID 26388279074760 and Comment ID 2336463392969** (New)
+- **New edge of type `likeComment` between Person ID 32985348834481 and Comment ID 2336463423090** (New)
+- **New edge of type `like_post` between Person ID 30786325581170 and Post ID 2199024491633** (New)
+- **New edge of type `knows` between Person ID 2199023258705 and Person ID 28587302322890** (New)
+- **New edge of type `knows` between Person ID 30786325582121 and Person ID 30786325585005** (New)
+- **New edge of type `knows` between Person ID 2199023265221 and Person ID 13194139534011** (New)
+- **New edge of type `like_post` between Person ID 10995116283889 and Post ID 2061585480535** (New)
+- **New edge of type `knows` between Person ID 10995116283889 and Person ID 35184372093967** (New)
+- **New edge of type `knows` between Person ID 2199023258370 and Person ID 8796093024152** (New)
+- **New edge of type `likeComment` between Person ID 6597069767858 and Comment ID 2199024405766** (New)
+- **New edge of type `like_post` between Person ID 5320 and Post ID 824634828536** (New)
+- **New edge of type `knows` between Person ID 7437 and Person ID 26388279069585** (New)
+- **New edge of type `hasMember` between Forum ID 687194799758 and Person ID 6597069770425** (New)
+- **New edge of type `knows` between Person ID 2783 and Person ID 13194139542928** (New)
+- **New edge of type `hasMember` between Forum ID 2199023318684 and Person ID 15393162792752** (New)
+- **New edge of type `knows` between Person ID 10995116283329 and Person ID 10995116285514** (New)
+- **New edge of type `workAt` between Person ID 2199023264600 and Company ID 1260** (New)
+- **New edge of type `likeComment` between Person ID 26388279074760 and Comment ID 2336463392969** (New)
+- **New edge of type `likeComment` between Person ID 32985348834481 and Comment ID 2336463423090** (New)
+- **New edge of type `knows` between Person ID 2783 and Person ID 28587302322498** (New)
+- **New edge of type `knows` between Person ID 26388279068136 and Person ID 26388279072783** (New)
+- **New edge of type `likeComment` between Person ID 28587302329061 and Comment ID 2199024474441** (New)
+- **New edge of type `like_post` between Person ID 13194139540475 and Post ID 1924146486942** (New)
+- **New edge of type `likeComment` between Person ID 8796093024002 and Comment ID 2199024322284** (New)
+- **New edge of type `likeComment` between Person ID 28587302329293 and Comment ID 1786707614112** (New)
+- **New edge of type `knows` between Person ID 17592186046112 and Person ID 19791209301023** (New)
+
+The updated PG-Sheet reflects the addition of new edges based on the provided evidence from the chunk.

@@ -1,0 +1,198 @@
+### PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The purpose of the creation of this dataset is to represent a social network where individuals are connected by a "knows" relationship.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: The dataset is intended to support entity linking and path queries.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No, this dataset has not been used before.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The dataset models a social network where individuals are connected by a "knows" relationship, allowing for the exploration of relationships and paths between individuals.
+
+Data Collection:
+* Source of the data: The data is not explicitly stated, but it appears to be a collection of social network data.
+* Time frame when it was collected/made: The time frame is not explicitly stated, but the creation dates of the relationships range from 1970 to 2023.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not explicitly stated, but it appears to be a manual collection of social network data.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a full dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Compositional Data:
+* Q10: Number of nodes in the dataset.
+Q10-Ans: 57
+
+* Q11: Number of edges in the dataset.
+Q11-Ans: 21
+
+* Q12: What is the most frequent label of the nodes in the dataset?
+Q12-Ans: Person
+
+* Q13: What is the most frequent edge type in the dataset?
+Q13-Ans: knows
+
+* Q14: What is the range of creation dates of the edges in the dataset?
+Q14-Ans: 1970-01-18 to 2023-07-26
+
+* Q15: What is the earliest and latest creation date of the edges in the dataset?
+Q15-Ans: Earliest: 1970-01-18, Latest: 2023-07-26
+
+* Q16: What is the average creation date of the edges in the dataset?
+Q16-Ans: 1998-09-11
+
+* Q17: What is the number of nodes with a specific label?
+Q17-Ans: 
+  • Person: 57
+
+* Q18: What is the number of edges of a specific type?
+Q18-Ans: 
+  • knows: 21
+
+* Q19: What is the number of edges between two specific nodes?
+Q19-Ans: 
+  • (67292, 48599): 1
+  • (43971, 16704): 1
+  • (94303, 18615): 1
+  • (44368, 94265): 1
+  • (74043, 55525): 1
+  • (12544, 77406): 1
+  • (34182, 61587): 1
+  • (15762, 51225): 1
+  • (40801, 39048): 1
+  • (72491, 16687): 1
+  • (22955, 8024): 1
+  • (49382, 54851): 1
+  • (7616, 12565): 1
+  • (548, 10754): 1
+  • (12958, 11397): 1
+  • (83497, 54639): 1
+  • (22081, 12380): 1
+  • (78601, 4987): 1
+  • (25891, 43194): 1
+  • (22738, 56866): 1
+  • (37312, 59496): 1
+  • (9385, 58355): 1
+  • (36688, 894): 1
+  • (53104, 23031): 1
+  • (83204, 90078): 1
+  • (64827, 84760): 1
+  • (84787, 22443): 1
+  • (9064, 44729): 1
+  • (56863, 62119): 1
+  • (65356, 95590): 1
+  • (88039, 8321): 1
+  • (72603, 26443): 1
+  • (56423, 66052): 1
+  • (46198, 2590): 1
+  • (19510, 75331): 1
+  • (58878, 47822): 1
+  • (84109, 87319): 1
+  • (72055, 69462): 1
+  • (95085, 31142): 1
+  • (4763, 17659): 1
+  • (84832, 46922): 1
+  • (83848, 19537): 1
+  • (77156, 2094): 1
+  • (53033, 24292): 1
+  • (51274, 58288): 1
+  • (49492, 15692): 1
+  • (46370, 65521): 1
+  • (338, 77564): 1
+  • (10457, 33869): 1
+  • (99554, 70077): 1
+
+* Q20: What is the number of nodes with a specific property?
+Q20-Ans: 
+  • id: 57
+  • firstName: 57
+  • lastName: 57
+  • Label: 57
+
+* Q21: What is the number of edges with a specific property?
+Q21-Ans: 
+  • type: 21
+  • creationDate: 21
+
+* Q22: What is the most frequent property value of the nodes?
+Q22-Ans: 
+  • id: 67292
+  • firstName: Michael
+  • lastName: Owens
+  • Label: Person
+
+* Q23: What is the most frequent property value of the edges?
+Q23-Ans: 
+  • type: knows
+  • creationDate: 1998-09-11
+
+* Q24: What is the earliest and latest creation date of nodes in the dataset?
+Q24-Ans: Earliest: 1970-01-07, Latest: 2023-07-26
+
+* Q25: What is the average creation date of nodes in the dataset?
+Q25-Ans: 1995-01-01
+
+* Q26: What is the number of edges between two nodes with specific labels?
+Q26-Ans: 
+  • (Person, Person): 21
+
+* Q27: What is the number of edges between two nodes with specific properties?
+Q27-Ans: 
+  • id: (67292, 48599)
+  • firstName: (Michael, Owens)
+  • lastName: (Owens, Michael)
+  • Label: (Person, Person)
+
+* Q28: What is the most frequent property value of nodes with a specific label?
+Q28-Ans: 
+  • id: 67292
+  • firstName: Michael
+  • lastName: Owens
+  • Label: Person
+
+* Q29: What is the most frequent property value of edges with a specific type?
+Q29-Ans: 
+  • type: knows
+  • creationDate: 1998-09-11
+
+* Q30: What is the most frequent property value of edges with a specific property?
+Q30-Ans: 
+  • type: knows
+  • creationDate: 1998-09-11
+
+* Q31: What is the earliest and latest creation date of edges in the dataset for a specific edge type?
+Q31-Ans: 
+  • knows: Earliest: 1970-01-18, Latest: 2023-07-26
+
+* Q32: What is the average creation date of edges in the dataset for a specific edge type?
+Q32-Ans: 
+  • knows: 1998-09-11
+
+* Q33: What is the number of edges between two nodes with specific properties for a specific edge type?
+Q33-Ans: 
+
+*

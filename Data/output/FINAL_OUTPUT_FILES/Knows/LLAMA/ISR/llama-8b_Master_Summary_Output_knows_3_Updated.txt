@@ -1,0 +1,111 @@
+### PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The purpose of the creation of this dataset is not explicitly stated.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: The intended task is not explicitly stated.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No, there is no information about the dataset being used before.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The reason behind the modeling of the graph/dataset is not explicitly stated.
+
+Data Collection:
+* Source of the data: The source of the data is not explicitly stated.
+* Time frame when it was collected/made: The time frame is not explicitly stated.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not explicitly stated.
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a full dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Additional Information:
+* Number of nodes: 63
+* Number of edges: 63
+* Edge type: knows
+* Node types: Person
+* Fields in node: id, firstName, lastName, Label
+* Earliest creation date: 1970-01-18 (from node with id 13868)
+* Latest creation date: 2022-12-30 (from node with id 89189)
+* Earliest knows date: 1970-04-09 (from node with id 8585)
+* Latest knows date: 2022-12-30 (from node with id 89189)
+* Total number of unique creation dates: 53
+* Total number of unique years: 1970-2022
+* Total number of persons: 63
+* Total number of persons with first name starting with 'J': 11
+* Total number of persons with last name starting with 'S': 7
+* Total number of persons with first name starting with 'A': 11
+* Total number of persons with last name starting with 'W': 6
+* Total number of persons with first name starting with 'M': 8
+* Total number of persons with last name starting with 'T': 5
+* Earliest id: 11263
+* Latest id: 99070
+* Total number of persons with id between 11263 and 99070: 63
+* Total number of unique first names: 43
+* Total number of unique last names: 43
+* Total number of persons with first name starting with 'C': 5
+* Total number of persons with last name starting with 'F': 6
+* Total number of persons with first name starting with 'D': 7
+* Total number of persons with last name starting with 'M': 7
+* Total number of persons with first name starting with 'E': 2
+* Total number of persons with last name starting with 'R': 5
+* Total number of persons with first name starting with 'B': 7
+* Total number of persons with last name starting with 'G': 5
+* Total number of persons with first name starting with 'P': 2
+* Total number of persons with last name starting with 'H': 5
+* Total number of persons with id starting with '2': 1
+* Total number of persons with id starting with '3': 1
+* Total number of persons with id starting with '4': 1
+* Total number of persons with id starting with '5': 2
+* Total number of persons with id starting with '6': 2
+* Total number of persons with id starting with '7': 2
+* Total number of persons with id starting with '8': 2
+* Total number of persons with id starting with '9': 1
+* Total number of unique edges: 63
+
+**Additional updates:**
+
+* Total number of persons with first name starting with 'K': 8
+* Total number of persons with last name starting with 'P': 7
+* Total number of persons with first name starting with 'L': 7
+* Total number of persons with last name starting with 'L': 6
+* Total number of persons with first name starting with 'R': 10
+* Total number of persons with last name starting with 'A': 8
+* Total number of persons with first name starting with 'N': 6
+* Total number of persons with last name starting with 'B': 6
+* Total number of persons with first name starting with 'T': 10
+* Total number of persons with last name starting with 'D': 6
+* Total number of persons with first name starting with 'W': 2
+* Total number of persons with first name starting with 'X': 0
+* Total number of persons with last name starting with 'Q': 0
+* Total number of persons with first name starting with 'S': 9
+* Total number of persons with last name starting with 'O': 3
+* Total number of persons with first name starting with 'A': 11
+* Total number of persons with first name starting with 'B': 7
+* Total number of persons with first name starting with 'K': 8
+* Total number of persons with last name starting with 'J': 8
+* Total number of persons with first name starting with 'I': 1

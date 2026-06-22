@@ -1,0 +1,48 @@
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model social connections and relationships within a network.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Social network analysis and relationship mapping.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes. This dataset was chosen due to its comprehensive coverage of social connections and relationships which are essential for understanding social networks.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To facilitate the study and analysis of social interactions and networks.
+
+Data Collection:
+* Source of the data: Real-world social interactions and relationships, supplemented by digital and social media platforms.
+* Time frame when it was collected/made: The dataset spans various years from 1970 to 2023, with updates reflecting modern social connections and relationships.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Initial data collection methods included manual observation and record-keeping, with current updates reflecting modern social connections and relationships through digital and social media platforms. Methods are no longer actively maintained.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Note: The provided chunk did not contain any information that would update the fields listed under "Distribution and Maintenance" as all entries there were marked with "N/A". Therefore, the updated PG-Sheet remains unchanged in those sections.
+
+The provided chunk did not specifically update the "Time frame when it was collected/made" or "Methods used to collect it" fields in the "Data Collection" section. Hence, the PG-Sheet remains unchanged in these sections as well.

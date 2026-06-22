@@ -1,0 +1,19 @@
+### Company
+
+- 1088: Label="Elbrus-Avia", creationDate="2012-09-25T14:57:29.901+00:00", id="1088", name="Elbrus-Avia", type="Company", url="http://dbpedia.org/resource/Elbrus-Avia"
+- 536: Label="ABC_Air_Hungary", creationDate="2012-09-25T14:57:29.901+00:00", id="536", name="ABC_Air_Hungary", type="Company", url="http://dbpedia.org/resource/ABC_Air_Hungary", workFrom=2003
+- 930: Label="Lucky_Air", creationDate="2012-09-25T14:57:29.901+00:00", id="930", name="Lucky_Air", type="Company", url="http://dbpedia.org/resource/Lucky_Air", workFrom=2003
+- 305: Label="Euro_Cargo_Air", creationDate="2012-09-25T14:57:29.901+00:00", id="305", name="Euro_Cargo_Air", type="Company", url="http://dbpedia.org/resource/Euro_Cargo_Air", workFrom=2010
+- 1560: Label="Indochina_Airlines", creationDate="2011-07-06T03:10:58.056+00:00", id="1560", name="Indochina_Airlines", type="Company", url="http://dbpedia.org/resource/Indochina_Airlines", workFrom=2002
+- 889: Label="Pearl_Air", creationDate="2010-01-20T22:26:59.510+00:00", id="889", name="Pearl_Air", type="Company", url="http://dbpedia.org/resource/Pearl_Air", workFrom=2007
+- 7: Label="Air_AlgÃÃÃ³gie", creationDate="2012-11-24T21:29:04.040+00:00", id="7", name="Air_AlgÃÃÃ³gie", type="Company", url="http://dbpedia.org/resource/Air_AlgÃÃÃ³gie", workFrom=2004
+- 6918: Label="Carey_Business_School", creationDate="2012-09-25T14:57:29.901+00:00", id="6918", name="Carey_Business_School", type="University", url="http://dbpedia.org/resource/Carey_Business_School"
+- 398: Label="Airest", creationDate="2010-01-20T17:11:04.665+00:00", id="398", name="Airest", type="Company", url="http://dbpedia.org/resource/Airest", workFrom=2007
+- 978: Label="Exin", creationDate="2010-05-23T16:06:29.580+00:00", id="978", name="Exin", type="Company", url="http://dbpedia.org/resource/Exin", workFrom=2007
+- 1083: Label="Air_Volga", creationDate="2010-12-25T21:35:00.131+00:00", id="1083", name="Air_Volga", type="Company", url="http://dbpedia.org/resource/Air_Volga", workFrom=2009
+- 915: Label="Chang'an_Airlines", creationDate="2010-11-09T07:53:05.818+00:00", id="915", name="Chang'an_Airlines", type="Company", url="http://dbpedia.org/resource/Chang'an_Airlines", workFrom=2010
+- 929: Label="Great_Wall_Airlines", creationDate="2010-10-20T09:22:44.592+00:00", id="929", name="Great_Wall_Airlines", type="Company", url="http://dbpedia.org/resource/Great_Wall_Airlines", workFrom=2007
+- 106: Label="Belavia", creationDate="2010-05-23T16:06:29.580+00:00", id="106", name="Belavia", type="Company", url="http://dbpedia.org/resource/Belavia", workFrom=1999
+- 550: Label="Himalayan_Aviation", creationDate="2010-03-24T02:20:20.165+00:00", id="550", name="Himalayan_Aviation", type="Company", url="http://dbpedia.org/resource/Himalayan_Aviation", workFrom=2003
+- 1017: Label="Å¢iriac_Air", creationDate="2012-11-27T10:47:23.161+00:00", id="1017", name="Å¢iriac_Air", type="Company", url="http://dbpedia.org/resource/Å¢iriac_Air", workFrom=2010
+- 6252: Label="Berea_University_of_Graduate_Studies", creationDate="2012-11-27T10:47:23.161+00::00", id="6252", name="Berea_University_of_Graduate_Studies", type="University", url="http://dbpedia.org/resource/Berea_University_of_Graduate_Studies"

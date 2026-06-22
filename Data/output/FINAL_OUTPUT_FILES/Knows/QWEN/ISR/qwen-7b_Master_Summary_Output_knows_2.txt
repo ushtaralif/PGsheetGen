@@ -1,0 +1,107 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model social connections and interactions within a network.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Social network analysis and connection tracking
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: N/A
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To analyze relationships and interactions among individuals.
+
+Data Collection:
+* Source of the data: Real-world social interactions
+* Time frame when it was collected/made: Various dates ranging from 1970 to 2023
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Manually entered by users over a long period; methods are no longer available as the dataset was created from historical records.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Additional Information: 
+  * The dataset contains edges representing relationships between people, with attributes such as 'creationDate' and 'type'.
+  * The 'creationDate' indicates when the relationship was recorded, and 'type' specifies the nature of the relationship.
+  * The dataset includes a variety of relationships, including those formed in different decades, reflecting diverse periods of social interaction.
+  * The dataset encompasses 42 entries detailing relationships between individuals, covering a wide range of years from 1970 to 2023.
+  * The dataset reflects a broad spectrum of relationships, from early decades like 1970 to more recent years like 2023.
+  * Updated to include detailed information on 42 relationships, covering various decades and types of relationships.
+  * The dataset now includes more recent relationships up to 2023.
+  * The dataset includes 42 relationships with attributes like 'creationDate' and 'type', covering years from 1970 to 2023.
+  * The dataset has been expanded to include additional attributes such as 'type' for each relationship.
+  * The dataset includes a total of 42 relationships, each with 'creationDate' and 'type' attributes, covering the years 1970 through 2023.
+  * The dataset has been further updated to include the 'creationDate' and 'type' attributes for all 42 relationships, covering the years 1970 through 2023.
+  * The dataset now includes 42 relationships, each with 'creationDate' and 'type' attributes, covering years from 1970 to 2023, and reflecting diverse social interactions across different decades.
+  * The dataset includes 42 relationships with attributes such as 'creationDate' and 'type', covering a wide range of years from 1970 to 2023, and includes detailed information on the relationships formed over several decades.
+  * The dataset now includes 42 relationships with attributes like 'creationDate' and 'type', covering years from 1970 to 2023, including both older and newer relationships.
+  * The dataset now includes 42 relationships, each with 'creationDate' and 'type' attributes, covering the years 1970 through 2023, and reflects diverse social interactions across different decades.
+
+Updated to include the following relationships:
+1. Carrie Nunez knows Christopher Gonzalez since 1971-12-09
+2. Jeanette Foster knows Michael Walker since 1996-04-18
+3. Brittany Carter knows Joseph Graham since 2015-01-30
+4. Christine Edwards knows Vincent King since 1984-10-17
+5. John Cochran knows Harold Whitaker since 1999-02-01
+6. Ashley Thomas knows Angela Jones since 1970-04-09
+7. Amy Riley knows Cynthia Morgan since 1997-05-31
+8. Carrie Combs knows Lisa Jones since 2022-12-30
+9. Robin Palmer knows Julia Blevins since 2017-03-05
+10. Angela Myers knows Dana Woodward since 1976-01-03
+11. Angela Robbins knows Veronica Henry since 1989-06-12
+12. Derrick Robinson knows Darrell Dougherty since 1999-12-02
+13. Kyle Mitchell knows Colleen Hoffman since 1986-02-10
+14. Richard Cooper knows Eric Richards since 1988-05-07
+15. Jennifer Matthews knows Amber Mueller since 1993-08-05
+16. Alyssa Velazquez knows Andrew Arnold since 2020-08-29
+17. Stephen Terry knows Caitlin Baxter since 1977-12-25
+18. Andrew Warner knows Jennifer Hansen since 2019-03-18
+19. Alyssa Schmidt knows Marilyn Kerr since 2010-05-04
+20. Eric Wilson knows Christopher Bruce since 1978-07-22
+21. Kim Fisher knows Carol Miller since 2008-11-21
+22. Jessica Howe knows Raymond Baker since 2021-12-20
+23. Darren Scott knows Daniel Bryan since 1971-09-03
+24. Amanda Figueroa knows Jessica Glover since 1993-08-21
+25. Billy Reed knows Elizabeth Gilbert since 2005-04-13
+26. Amber Williams knows Glen Robinson since 2013-02-06
+27. Tammy Jones knows William Baker since 1989-08-05
+28. Alexis Ford knows Ellen Perez since 1983-04-10
+29. Emily Murray knows Erica Lee since 1976-12-05
+30. Vickie Rivers knows Rebecca Howell since 1970-11-10
+31. Gary Cherry knows Lori Collier since 2002-01-07
+32. Amy Mueller knows Michael Snyder since 1991-05-26
+33. Melissa Williams knows Amanda Cooper since 1981-08-30
+34. Billy Hayden knows Donna Baker since 1980-05-13
+35. Seth Gutierrez knows Christopher Parker since 1989-04-21
+36. Lisa Bradley knows Joseph Morrison since 2012-11-10
+37. Adrienne Pope knows Courtney Christian since 2007-06-05
+38. Victoria Miller knows Anthony Weiss since 2021-07-14
+39. Peter Stewart knows Christopher Mendez since 2014-07-02
+40. Christopher Strong knows Carol McKay since 1971-05-17
+41. Samantha Neal knows Heather Snyder since 2022-10-19
+42. Timothy Allen knows Rebekah Rivas since 2006-02-11
+```

@@ -1,0 +1,246 @@
+### === NODE TYPES ===
+
+NODE TYPE: Forum
+  • Label
+  • creationDate
+  • id
+  • title
+
+NODE TYPE: Person
+  • Label
+  • birthday
+  • browserUsed
+  • creationDate
+  • email
+  • firstName
+  • gender
+  • id
+  • language
+  • lastName
+  • locationIP
+
+NODE TYPE: Comment
+  • Label
+  • browserUsed
+  • content
+  • creationDate
+  • id
+  • length
+  • locationIP
+
+NODE TYPE: Company
+  • Label
+  • id
+  • name
+  • type
+  • url
+
+NODE TYPE: Place
+  • Label
+  • id
+  • name
+  • type
+  • url
+
+NODE TYPE: Post
+  • Label
+  • browserUsed
+  • content
+  • creationDate
+  • id
+  • imageFile
+  • language
+  • length
+  • locationIP
+
+### === EDGE TYPES ===
+
+EDGE TYPE: hasMember
+  • creationDate
+  • type
+
+EDGE TYPE: likeComment
+  • creationDate
+  • type
+
+EDGE TYPE: isLocatedIn
+  • type
+
+EDGE TYPE: knows
+  • Person1Id
+  • Person2Id
+  • creationDate
+  • type
+
+EDGE TYPE: like_post
+  • creationDate
+  • type
+
+EDGE TYPE: isPartOf
+  • Place1Id
+  • Place2Id
+  • type
+
+EDGE TYPE: workAt
+  • creationDate
+  • type
+  • workFrom
+
+### === UPDATED NODES ===
+
+NODE TYPE: Person
+  • id: 30786325578774
+    - Label: Person
+    - creationDate: "2012-07-03T06:09:08.040+00:00"
+    - id: 30786325578774
+    - firstName: Eduard
+    - lastName: Eduard
+    - gender: male
+    - birthday: "1989-06-11"
+    - locationIP: "46.229.57.192"
+    - browserUsed: Safari
+    - language: uk;ro;en
+    - email: Eduard30786325578774@gmx.com;Eduard30786325578774@gmail.com;Eduard30786325578774@hotmail.com;Eduard30786325578774@yahoo.com
+
+NODE TYPE: Person
+  • id: 32985348838240
+    - Label: Person
+    - creationDate: "2012-08-03T04:05:53.202+00:00"
+    - id: 32985348838240
+    - firstName: Serghei
+    - lastName: Niculiţă
+    - gender: female
+    - birthday: "1989-08-03"
+    - locationIP: "91.216.166.112"
+    - browserUsed: Chrome
+    - language: ru;en
+    - email: Serghei32985348838240@gmail.com;Serghei32985348838240@gmx.com;Serghei32985348838240@rabat.cc;Serghei32985348838240@yahoo.com;Serghei32985348838240@hotmail.com
+
+NODE TYPE: Person
+  • id: 28587302324370
+    - Label: Person
+    - creationDate: "2012-07-01T00:52:27.462+00:00"
+    - id: 28587302324370
+    - firstName: Alexander
+    - lastName: Dobrunov
+    - gender: male
+    - birthday: "1980-02-07"
+    - locationIP: "31.31.175.171"
+    - browserUsed: Chrome
+    - language: ru;en
+    - email: Alexander28587302324370@gmail.com;Alexander28587302324370@gmx.com;Alexander28587302324370@zoho.com;Alexander28587302324370@yahoo.com;Alexander28587302324370@hotmail.com
+
+NODE TYPE: Person
+  • id: 28587302328745
+    - Label: Person
+    - creationDate: "2012-03-25T20:37:42.042+00:00"
+    - id: 28587302328745
+    - firstName: Lev
+    - lastName: Basov
+    - gender: female
+    - birthday: "1986-03-22"
+    - locationIP: "31.192.105.96"
+    - browserUsed: Firefox
+    - language: ru;en
+    - email: Lev28587302328745@yahoo.com;Lev28587302328745@gmail.com;Lev28587302328745@hotmail.com
+
+NODE TYPE: Person
+  • id: 30786325587391
+    - Label: Person
+    - creationDate: "2012-06-20T15:34:13.994+00:00"
+    - id: 30786325587391
+    - firstName: Antonio
+    - lastName: Alvarez
+    - gender: female
+    - birthday: "1986-10-28"
+    - locationIP: "148.213.104.154"
+    - browserUsed: Internet Explorer
+    - language: es;en
+    - email: Antonio30786325587391@gmx.com
+
+NODE TYPE: Person
+  • id: 26388279074345
+    - Label: Person
+    - creationDate: "2012-01-19T03:25:47.214+00:00"
+    - id: 26388279074345
+    - firstName: Mary
+    - lastName: Moore
+    - gender: female
+    - birthday: "1986-07-06"
+    - locationIP: "31.193.134.198"
+    - browserUsed: Firefox
+    - language: en
+    - email: Mary26388279074345@gmx.com;Mary26388279074345@gmail.com
+
+NODE TYPE: Person
+  • id: 32985348843608
+    - Label: Person
+    - creationDate: "2012-08-30T00:18:31.427+00:00"
+    - id: 32985348843608
+    - firstName: Maria
+    - lastName: Matveyev
+    - gender: female
+    - birthday: "1982-05-24"
+    - locationIP: "46.28.198.50"
+    - browserUsed: Firefox
+    - language: uk;ru;en
+    - email: Maria32985348843608@gmail.com;Maria32985348843608@gmx.com;Maria32985348843608@hotmail.com
+
+NODE TYPE: Person
+  • id: 24189255811225
+    - Label: Person
+    - creationDate: "2011-11-11T17:05:21.349+00:00"
+    - id: 24189255811225
+    - firstName: Abdala
+    - lastName: Ndiaye
+    - gender: female
+    - birthday: "1980-11-12"
+    - locationIP: "196.1.98.252"
+    - browserUsed: Firefox
+    - language: fr;wo;en
+    - email: Abdala24189255811225@gmx.com;Abdala24189255811225@yahoo.com;Abdala24189255811225@zoho.com;Abdala24189255811225@gmail.com;Abdala24189255811225@archaeologist.com
+
+NODE TYPE: Person
+  • id: 10995116278880
+    - Label: Person
+    - creationDate: "2010-02-10T21:20:22.741+00:00"
+    - id: 10995116278880
+    - firstName: Baby
+    - lastName: Hu
+    - gender: male
+    - birthday: "1981-01-10"
+    - locationIP: "1.0.47.24"
+    - browserUsed: Internet Explorer
+    - language: zh;en
+    - email: Baby7587@yahoo.com
+
+NODE TYPE: Person
+  • id: 8796093026733
+    - Label: Person
+    - creationDate: "2010-10-25T10:59:46.011+00:00"
+    - id: 8796093026733
+    - firstName: Albade
+    - lastName: Diori
+    - gender: female
+    - birthday: "1982-09-09"
+    - locationIP: "41.138.48.84"
+    - browserUsed: Firefox
+    - language: fr;ha;en
+    - email: Albade8796093026733@gmail.com;Albade8796093026733@yahoo.com
+
+NODE TYPE: Person
+  • id: 7309
+    - Label: Person
+    - creationDate: "2010-01-21T10:16:08.750+00:00"
+    - id: 7309
+    - firstName: Hector Hugh
+    - lastName: Michie
+    - gender: female
+    - birthday: "1982-11-28"
+    - locationIP: "203.81.169.202"
+    - browserUsed: Internet Explorer
+    - language: my;en
+    - email: Hector.Hugh7309@gmail.com
+
+NODE TYPE: Person
+  • id: 13194139537018

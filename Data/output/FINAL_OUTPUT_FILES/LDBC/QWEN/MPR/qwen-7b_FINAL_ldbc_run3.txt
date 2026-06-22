@@ -1,0 +1,89 @@
+### PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Social Network Analysis
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: N/A
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To analyze social interactions and network structures within online forums.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data Mining
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: N/A
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To represent social relationships and interactions in a structured format for analysis
+
+Data Collection:
+* Source of the data: Real-world social media interactions and forum activities.
+* Time frame when it was collected/made: 2010-2012
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The data was collected through web scraping and is still available.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): Creative Commons Attribution Share-Alike 3.0 Unported License
+Q10-Ans: Creative Commons Attribution Share-Alike 3.0 Unported License
+
+* Date of distribution (if available otherwise respond with N/A): 2012-12-31
+Q11-Ans: 2012-12-31
+
+* Modification date (if available otherwise respond with N/A): 2013-01-01
+Q12-Ans: 2013-01-01
+
+* Responsible for hosting the dataset (if available otherwise respond with N/A): DBpedia
+Q13-Ans: DBpedia
+
+* Responsible for maintaining (if available otherwise respond with N/A): DBpedia Community
+Q14-Ans: DBpedia Community
+
+* Papers list who used this dataset: N/A
+Q15-Ans: N/A
+
+Answer Updates:
+* Q10: What are the latest additions to the dataset in terms of nodes and edges?
+Q10-Ans: The latest additions include:
+- Nodes: 33 new nodes including 22 `Person` nodes, 10 `Place` nodes, and 1 `Comment` node.
+- Edges: 33 new edges including `knows`, `workAt`, `isPartOf`, `likeComment`, and `like_post` relationships.
+
+* Q11: Are there any new forums or places added to the dataset?
+Q11-Ans: No, new forums have not been added, but new places have been added, such as "Busan, Tirupati".
+
+* Q12: Have any existing nodes been updated with new information?
+Q12-Ans: Yes, new relationships have been added such as likes on comments and social connections.
+
+* Q13: How many new nodes were added?
+Q13-Ans: 33 (22 `Person`, 10 `Place`, 1 `Comment`)
+
+* Q14: How many new edges were added?
+Q14-Ans: 33 (`knows`, `workAt`, `isPartOf`, `likeComment`, `like_post`)
+
+* Q15: Are there any new relationships that were established?
+Q15-Ans: Yes, new relationships include social connections, geographical relationships, and likes.
+
+* Q16: Are there any new interactions that were established?
+Q16-Ans: Yes, new interactions include social connections, geographical relationships, and likes.
+
+* Q10: Are there any new companies mentioned in the dataset?
+Q10-Ans: Yes (Air_Volga, Chang'an_Airlines, Great_Wall_Airlines)
+
+* Q11: Are there any new places mentioned in the dataset?
+Q11-Ans: Yes (Busan, Tirupati)
+
+* Q12: Are there any new individuals mentioned in the dataset?
+Q12-Ans: Yes (A. Budjana, Ali Ngoche, Ali Kountche, Anand Rao, Alphonse Bona, Amisha Bajracharya, Barbara Kanam Omonga, Batong Tran, Bingjian Zhang, Ching Ho, Cristofer Alcalde, Donald Munro, Gabriel Arbelaez, Gabriel Gonzalez, Gabriel Khan, Gabriel Makarova, Gabriel Onopka, Gabriel Singh, Gabriel Tembo, Gabriel Yen, Gabriel Zhang, Gabriel Zhou, Gabriel Zhu, Gabriel Zou, Gabriel Zuo, Gabriel Zhao)

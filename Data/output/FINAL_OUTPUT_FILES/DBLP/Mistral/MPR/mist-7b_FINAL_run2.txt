@@ -1,0 +1,91 @@
+PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Computer Science, specifically focused on Articles, Authors, Keywords, and Venues in the fields of Computer Science, Engineering, Signal Processing, Machine Learning, Robotics, Network Topology, and Wireless Communication.
+
+Compositional Data:
+- Q1: No, this dataset is not AI generated. It is a real-world dataset.
+- Q1-Ans: No
+
+- Q2: Yes, the dataset is split into individual articles.
+- Q2-Ans: Yes
+
+- Q3: Each article is a separate node in the dataset.
+- Q3-Ans: Article
+
+Motivation:
+- Q4: The purpose of the creation of this dataset is to provide a structured collection of articles, authors, keywords, and venues for research and analysis in various fields of Computer Science, Engineering, Signal Processing, Machine Learning, Robotics, Network Topology, and Wireless Communication.
+- Q4-Ans: To provide a structured collection
+
+- Q5: This dataset is intended to be used for various tasks such as citation analysis, topic modeling, network analysis, and research in specific domains like signal processing, machine learning, robotics, network topology, wireless communication, and now wireless communication.
+- Q5-Ans: To support citation analysis, topic modeling, network analysis, and research
+
+- Q6: This dataset has been used in various research studies and publications.
+- Q6-Ans: Yes
+
+- Q7: This dataset has been modeled to represent the relationships between articles, authors, keywords, and venues in a structured manner.
+- Q7-Ans: To represent relationships between articles, authors, keywords, and venues
+
+Data Collection:
+- Source of the data: The data was collected from various sources, including academic databases and repositories.
+- Time frame when it was collected/made: The data collection process is ongoing, with new articles being added regularly.
+- Q8: The methods used to collect it include web scraping, API calls, and manual curation.
+- Q8-Ans: Web scraping, API calls, and manual curation
+
+- Q9: This is a sample dataset, as it only includes a subset of the total articles available in the field.
+- Q9-Ans: Sample dataset
+
+Nodes:
+* articles
+  - doc_type: Research Articles
+  - n_citation: Not Specified
+  - lang: Not Specified
+  - id: Not Specified
+  - isbn: Not Specified
+  - issn: Not Specified
+  - issue: Not Specified
+  - label: Not Specified
+  - year: Not Specified
+  - volume: Not Specified
+  - title: Not Specified
+  - page_start: Not Specified
+  - page_end: Not Specified
+
+* authors
+  - Label: authors
+  - id: Not Specified
+  - label: Not Specified
+  - name: Not Specified
+  - org: Not Specified
+
+* keywords
+  - Label: keywords
+  - id: Not Specified
+  - keyword: Not Specified
+  - label: Not Specified
+
+* venues
+  - Label: venues
+  - id: Not Specified
+  - label: Not Specified
+  - name: Not Specified
+
+Edges:
+* cites
+  - id: Not Applicable (No citation information provided)
+* hasAuthors
+  - id: Not Applicable (No author information provided)
+* hasKey
+  - id: Not Applicable (No keyword information provided)
+* inVenue
+  - id: Not Applicable (No venue information provided)
+
+Distribution and Maintenance:
+- License of the dataset (if available otherwise respond with N/A): The dataset is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+- Date of distribution (if available otherwise respond with N/A): The dataset is continuously updated, with new articles being added regularly.
+- Modification date (if available otherwise respond with N/A): The dataset is continuously updated, with new articles being added regularly.
+- Responsible for hosting the dataset (if available otherwise respond with N/A): The dataset is hosted on GitHub.
+- Responsible for maintaining (if available otherwise respond with N/A): The dataset is maintained by the contributors on GitHub.
+- Papers list who used this dataset: The dataset has been used in various research studies and publications, but specific papers are not listed in the dataset itself.
+- Q10: The dataset is available for non-commercial use and requires attribution to the original authors and adherence to the specified license.
+- Q10-Ans: Yes

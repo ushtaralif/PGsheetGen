@@ -1,0 +1,43 @@
+PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Scholarly publications/bibliographic knowledge graph (articles–authors–keywords–venues with citation links)
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: Yes
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: Separate JSONL files by relation type: article_article.jsonl (cites edges between articles), article_keyword.jsonl (hasKey edges between articles and keywords).
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To represent and analyze scientific publications and their relationships (citations, authorship, keywords, venues) in a property graph for research and bibliometrics.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Graph/data mining, bibliometrics and citation analysis, recommendation/link prediction, entity linking, and path queries over scholarly graphs.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Not specified.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The property graph naturally captures article–author–keyword–venue entities and relations; edges such as cites, hasAuthors, hasKey, and inVenue enable efficient traversal and analytics.
+
+Data Collection:
+* Source of the data: Published journal and conference metadata with identifiers (DOI/ISSN/ISBN), citation links, and keywords; compiled into JSONL files (article_article.jsonl, article_keyword.jsonl). Example sources in this chunk include Computers & Graphics, Computer Graphics Forum, IEEE Transactions on Signal Processing, IEEE Transactions on Information Theory, Journal of the ACM, Computers & Mathematics with Applications, Environmental Modelling & Software, Cyberpsychology, Behavior, and Social Networking, ACM Transactions on Knowledge Discovery from Data (TKDD), and proceedings from IEEE/ACM conferences (MICCAI/LNCS, ICIP, CDC, VTC, ISSCC, IISWC, ICPR, SBAC-PAD, NaBIC).
+* Time frame when it was collected/made: Covers works from 1973 to 2022 in the provided chunk.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Not specified; likely aggregated via publisher/index APIs and metadata parsing. Such methods are still in use.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Sample/partial extract (a dataset chunk).
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A

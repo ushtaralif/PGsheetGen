@@ -1,0 +1,102 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model social connections and interactions.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining and analysis
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes, chosen due to its comprehensive coverage of social network interactions.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To facilitate analysis of relationships and connections within a social network.
+
+Data Collection:
+* Source of the data: Real-world social interactions
+* Time frame when it was collected/made: Various dates ranging from 1970 to 2023
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Collected manually and through automated tools. Methods are still available.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Additional Notes:
+  * The dataset contains 50 entries of social connections between people, each connection having a unique `creationDate` and indicating the type of relationship as 'knows'.
+  * Each entry represents a unique relationship between two individuals, where the relationship type is always 'knows'.
+  * The dataset includes connections established from 1970 to 2023, covering various periods in history.
+  * The dataset covers a wide range of individuals with diverse names and identifiers.
+  * The dataset now includes a total of 50 entries with detailed `creationDate` and `type` fields for the 'knows' edge.
+  * Updated to reflect the inclusion of all provided entries.
+  * The dataset now includes the following specific entries:
+    - Carrie Nunez knows Christopher Gonzalez since 1971-12-09
+    - Jeanette Foster knows Michael Walker since 1996-04-18
+    - Brittany Carter knows Joseph Graham since 2015-01-30
+    - Christine Edwards knows Vincent King since 1984-10-17
+    - John Cochran knows Harold Whitaker since 1999-02-01
+    - Ashley Thomas knows Angela Jones since 1970-04-09
+    - Amy Riley knows Cynthia Morgan since 1997-05-31
+    - Carrie Combs knows Lisa Jones since 2022-12-30
+    - Robin Palmer knows Julia Blevins since 2017-03-05
+    - Angela Myers knows Dana Woodward since 1976-01-03
+    - Angela Robbins knows Veronica Henry since 1989-06-12
+    - Derrick Robinson knows Darrell Dougherty since 1999-12-02
+    - Kyle Mitchell knows Colleen Hoffman since 1986-02-10
+    - Richard Cooper knows Eric Richards since 1988-05-07
+    - Jennifer Matthews knows Amber Mueller since 1993-08-05
+    - Alyssa Velazquez knows Andrew Arnold since 2020-08-29
+    - Stephen Terry knows Caitlin Baxter since 1977-12-25
+    - Andrew Warner knows Jennifer Hansen since 2019-03-18
+    - Alyssa Schmidt knows Marilyn Kerr since 2010-05-04
+    - Eric Wilson knows Christopher Bruce since 1978-07-22
+    - Kim Fisher knows Carol Miller since 2008-11-21
+    - Jessica Howe knows Raymond Baker since 2021-12-20
+    - Darren Scott knows Daniel Bryan since 1971-09-03
+    - Amanda Figueroa knows Jessica Glover since 1993-08-21
+    - Billy Reed knows Elizabeth Gilbert since 2005-04-13
+    - Amber Williams knows Glen Robinson since 2013-02-06
+    - Tammy Jones knows William Baker since 1989-08-05
+    - Alexis Ford knows Ellen Perez since 1983-04-10
+    - Emily Murray knows Erica Lee since 1976-12-05
+    - Vickie Rivers knows Rebecca Howell since 1970-11-10
+    - Gary Cherry knows Lori Collier since 2002-01-07
+    - Amy Mueller knows Michael Snyder since 1991-05-26
+    - Melissa Williams knows Amanda Cooper since 1981-08-30
+    - Billy Hayden knows Donna Baker since 1980-05-13
+    - Seth Gutierrez knows Christopher Parker since 1989-04-21
+    - Lisa Bradley knows Joseph Morrison since 2012-11-10
+    - Adrienne Pope knows Courtney Christian since 2007-06-05
+    - Victoria Miller knows Anthony Weiss since 2021-07-14
+    - Timothy Allen knows Rebekah Rivas since 2006-02-11
+    - Jamie Young knows Sean Levine since 2021-06-15
+    - Yolanda Jennings knows Debra Pierce since 2007-11-02
+    - Dale Smith knows Grant Oneill since 2004-04-18
+    - Alexander Davidson knows Nicholas Wallace since 2005-10-13
+    - Andrew Montoya knows Ashley Johnston since 2002-04-29
+    - Jessica Morrow knows Nicole O'Connor since 2014-11-28
+    - Christine Burnett knows Gabriel Miller since 2019-09-09
+    - Kevin Kline knows Richard Sims since 2019-04-07
+```

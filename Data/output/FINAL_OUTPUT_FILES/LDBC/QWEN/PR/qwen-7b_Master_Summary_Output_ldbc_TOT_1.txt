@@ -1,0 +1,48 @@
+### UPDATED PG-SHEET:
+
+- **Additional Information**:
+  * The dataset includes a variety of nodes such as `Person`, `Forum`, `Comment`, `Company`, and `Place`.
+  * Edges represent relationships like `knows`, `likeComment`, `isLocatedIn`, `workAt`, `isPartOf`, `hasMember`, and `like_post`.
+
+  * Example of a `knows` relationship added: `Person` with ID `10995116281773` knows `Person` with ID `2199023257206`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `1649267520811` has member `Person` with ID `21990232556323`.
+  * Example of a `workAt` relationship added: `Person` with ID `26388279076779` works at `Company` with ID `1550`.
+  * Example of an `isLocatedIn` relationship added: `Place` with ID `548` is located in `Place` with ID `74`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `2061584352036` has member `Person` with ID `10995116282649`.
+  * Example of a `likeComment` relationship added: `Person` with ID `19791209306498` liked `Comment` with ID `1924146486942`.
+  * Example of a `knows` relationship added: `Person` with ID `2199023257192` knows `Person` with ID `30786325585379`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `2199023327733` has member `Person` with ID `17592186052644`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `2199023352725` has member `Person` with ID `32985348839517`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `1236950603896` has member `Person` with ID `4398046513538`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `2061584364405` has member `Person` with ID `15393162791606`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `1649267513276` has member `Person` with ID `17592186051480`.
+  * Example of a `knows` relationship added: `Person` with ID `28587302332241` knows `Person` with ID `30786325580490`.
+  * Example of a `knows` relationship added: `Person` with ID `17592186047842` knows `Person` with ID `19791209304624`.
+  * Example of a `knows` relationship added: `Person` with ID `4385` knows `Person` with ID `32985348834870`.
+  * Example of a `knows` relationship added: `Person` with ID `10995116285720` knows `Person` with ID `13194139538188`.
+  * Example of a `knows` relationship added: `Person` with ID `17592186050065` knows `Person` with ID `19791209303350`.
+  * Example of a `knows` relationship added: `Person` with ID `28587302331623` knows `Person` with ID `35184372090196`.
+  * Example of a `knows` relationship added: `Person` with ID `13194139538863` knows `Person` with ID `21990232557875`.
+  * Example of a `like_post` relationship added: `Person` with ID `26388279071176` liked `Post` with ID `1924146565677`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `1924145438109` has member `Person` with ID `26388279071176`.
+  * Example of a `knows` relationship added: `Person` with ID `15393162789060` knows `Person` with ID `19791209307130`.
+  * Example of a `like_post` relationship added: `Person` with ID `2199023257206` liked `Post` with ID `1924146565677`.
+  * Example of a `hasMember` relationship added: `Forum` with ID `687194811758` has member `Person` with ID `8796093030312`.
+  * Example of a `like_post` relationship added: `Person` with ID `8796093027770` liked `Post` with ID `1649268604835`.
+  * Example of a `knows` relationship added: `Person` with ID `17592186045969` knows `Person` with ID `21990232561457`.
+
+- Updated Relationships:
+  * `Person` with ID `4398046518997` is a member of `Forum` with ID `824633748005`.
+  * `Person` with ID `17592186049024` knows `Person` with ID `19791209302558`.
+  * `Forum` with ID `1786706488952` has member `Person` with ID `28587302330494`.
+  * `Company` with ID `7213` is located in `Place` with ID `884`.
+  * `Person` with ID `32985348836333` knows `Person` with ID `35184372097727`.
+  * `Person` with ID `1978` is a member of `Forum` with ID `1656`.
+  * `Person` with ID `26388279071774` knows `Person` with ID `35184372093927`.
+  * `Person` with ID `15393162795888` liked `Comment` with ID `2199024355481`.
+  * `Person` with ID `28587302329524` liked `Comment` with ID `2199024422428`.
+  * `Person` with ID `28587302322635` knows `Person` with ID `28587302324365`.
+  * `Person` with ID `30786325579883` liked `Comment` with ID `2061585492693`.
+  * `Person` with ID `2199023261346` knows `Person` with ID `15393162797132`.
+  * `Person` with ID `24189255820902` knows `Person` with ID `32985348841557`.
+  * `Forum` with ID `1511828546173` has member `Person` with ID `131941395398

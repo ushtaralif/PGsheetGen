@@ -1,0 +1,169 @@
+### Node Types
+
+* Forum:
+  - Label
+  - creationDate
+  - id
+  - title
+  - hasMember (edge type with creationDate)
+  - isLocatedIn (edge type)
+  - isPartOf (edge type with Place1Id, Place2Id)
+  - workAt (edge type with creationDate, workFrom)
+  - likeComment (edge type with creationDate)
+  - like_post (edge type with creationDate)
+* Person:
+  - Label
+  - creationDate
+  - id
+  - firstName
+  - lastName
+  - gender
+  - birthday
+  - locationIP
+  - browserUsed
+  - language
+  - email
+  - knows (edge type with Person1Id, Person2Id, creationDate)
+  - likeComment (edge type with creationDate)
+  - like_post (edge type with creationDate)
+  - workAt (edge type with creationDate, workFrom)
+  - isLocatedIn (edge type)
+  - isPartOf (edge type with Place1Id, Place2Id)
+  - hasMember (edge type)
+  - likeComment (edge type with creationDate)
+* Comment:
+  - Label
+  - creationDate
+  - id
+  - locationIP
+  - browserUsed
+  - content
+  - length
+  - likeComment (edge type with creationDate)
+* Company:
+  - Label
+  - id
+  - type
+  - name
+  - url
+  - workAt (edge type with creationDate, workFrom)
+  - isLocatedIn (edge type)
+  - hasMember (edge type with creationDate)
+  - isPartOf (edge type with Place1Id, Place2Id)
+* Place:
+  - Label
+  - id
+  - name
+  - url
+  - type
+  - isPartOf (edge type with Place1Id, Place2Id)
+  - isLocatedIn (edge type)
+  - hasMember (edge type with creationDate)
+* Post:
+  - Label
+  - creationDate
+  - id
+  - imageFile
+  - locationIP
+  - browserUsed
+  - language
+  - content
+  - length
+  - like_post (edge type with creationDate)
+  - isLocatedIn (edge type)
+
+### Edge Types
+
+* hasMember: Source node is a Forum, Target node is a Person, creationDate
+* knows: Source node is a Person, Target node is a Person, Person1Id, Person2Id, creationDate
+* likeComment: Source node is a Person, Target node is a Comment, creationDate
+* like_post: Source node is a Person, Target node is a Post, creationDate
+* workAt: Source node is a Person, Target node is a Company, creationDate, workFrom
+* isPartOf: Source node is a Place, Target node is a Place, Place1Id, Place2Id
+* isLocatedIn: Source node is a Company, Target node is a Place, Source node is a Place, Target node is a Company, Source node is a Person, Target node is a Place, Source node is a Post, Target node is a Place
+
+### Relations
+
+* Person 4398046521216 likes Comment 2336463384562
+* Person 8796093031935 knows Person 10995116278639
+* Person 21990232563479 knows Person 30786325578407
+* Person 6597069776180 likes Post 1374390686139
+* Person 24189255816049 knows Person 32985348841879
+* Person 13194139538694 likes Post 1374390712134
+* Person 8796093031935 knows Person 37383395353039
+* Person 19791209306759 likes Comment 2061585359913
+* Person 21990232563806 likes Comment 2061585463552
+* Forum 962072700019 hasMember Person 4398046517258
+* Person 15393162793222 knows Person 15393162794859
+* Person 13194139538886 likes Post 1649268614463
+* Forum 2336462220790 hasMember Person 2199023257093
+* Person 2199023261275 knows Person 4398046511213
+* Forum 1786706411424 hasMember Person 2199023262094
+* Person 13194139537539 knows Person 15393162791533
+* Person 17592186047935 likes Comment 1374390657310
+* Forum 1786706466904 hasMember Person 17592186051630
+* Person 8796093024269 knows Person 21990232565270
+* Person 4398046520852 works at Company 920
+* Forum 2061584399307 hasMember Person 32985348835207
+* Forum 1374389603956 hasMember Person 17592186047547
+* Person 5320 knows Person 2199023261409
+* Person 4398046518002 knows Person 35184372096829
+* Person 19791209302401 works at Company 664
+* Forum 1649267529552 hasMember Person 24189255820824
+* Person 1164 likes Post 1374390745860
+* Forum 1236950646260 hasMember Person 15393162795666
+* Person 2199023258226 knows Person 24189255819865
+* Person 10995116283889 likes Comment 1924146447656
+* Forum 1649267495678 hasMember Person 13194139533714
+* Forum 2336462308506 hasMember Person 35184372095522
+* Person 2676 knows Person 2199023256130
+* Person 6597069770934 likes Comment 2199024349059
+* Person 13194139538368 knows Person 28587302325923
+* Person 19791209307760 knows Person 21990232560747
+* Place 13 isPartOf Place 1456
+* Company 3121 isLocatedIn Place 278
+* Person 19791209301273 knows Person 28587302330742
+* Forum 1374389592103 hasMember Person 13194139538988
+* Person 4398046516058 knows Person 30786325585005
+* Person 10349 likes Post 687195904945
+* Person 6597069776075 knows Person 28587302324336
+* Person 2199023258198 works at Company 185
+* Person 2199023257490 knows Person 2199023265402
+* Person 4398046514203 knows Person 28587302326788
+* Person 10995116285514 knows Person 17592186050367
+* Person 4398046512363 knows Person 6597069770822
+* Forum 1374389599365 hasMember Person 15393162795051
+* Person 10995116280807 likes Post 1374390601341
+* Person 13194139539073 knows Person 24189255818353
+* Person 21990232562522 likes Comment 1649268601148
+* Person 8796093025775 knows Person 32985348843608
+* Person 4398046517760 knows Person 24189255816982
+* Person 21990232559935 works at Company 544
+* Person 8796093023008 works at Company 1066
+* Person 2199023257639 knows Person 8796093032803
+* Person 15393162797716 knows Person 28587302327661
+* Person 13194139539073 knows Person 24189255818353
+* Person 2199023261649 knows Person 30786325579797
+* Person 2199023265458 knows Person 4398046521501
+* Person 6597069769970 knows Person 32985348839029
+* Person 13194139541252 likes Comment 1924146499483
+* Person 10995116285126 likes Post 1786707586016
+* Person 8796093030109 likes Post 1924146584893
+* Person 32985348834426 knows Person 32985348841482
+* Person 6394 likes Comment 2061585462356
+* Person 2199023263408 knows Person 13194139537539
+* Person 24189255811963 likes Comment 2061585454337
+* Person 19791209310503 knows Person 24189255813075
+* Person 4398046520414 knows Person 32985348840714
+* Person 2199023263724 knows Person 24189255815442
+* Person 21990232555607 likes Post 1786707603590
+* Person 13194139538691 likes Comment 2336463283518
+* Person 10995116278581 likes Comment 962073746946
+* Person 4398046521478 knows Person 26388279071292
+* Person 2199023263408 knows Person 13194139537539
+* Person 24189255811963 likes Comment 2061585454337
+* Person 19791209310503 knows Person 24189255813075
+* Person 4398046520414 knows Person 32985348840714
+* Person 2199023263724 knows Person 24189255815442
+* Person 21990232555607 likes Post 1786707603590
+* Person 439804651

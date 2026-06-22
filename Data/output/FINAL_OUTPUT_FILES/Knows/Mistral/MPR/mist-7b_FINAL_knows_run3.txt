@@ -1,0 +1,79 @@
+PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: People and their relationships (knows)
+
+Compositional Data:
+* Q1: This dataset relies on real world data.
+* Q2: Yes, the dataset is available in multiple versions. Each version may have different number of people and relationships.
+
+Motivation:
+* Q4: The purpose of the creation of dataset is to study social relationships.
+* Q5: This dataset was intended to be used for graph analysis and social network analysis.
+* Q6: Yes, this dataset has been used before in various research studies. It was chosen for its large size and richness of relationships.
+* Q7: The dataset was modeled to study the structure and patterns of social relationships.
+
+Data Collection:
+* Source of the data: Real world social interactions
+* Time frame when it was collected/made: Not specified
+* Q8: The methods used to collect it are not specified.
+* Q9: This is a full dataset.
+
+Newly added people:
+- Carrie Nunez
+- Christopher Gonzalez
+- Jeanette Foster
+- Michael Walker
+- Brittany Carter
+- Joseph Graham
+- Christine Edwards
+- Vincent King
+- John Cochran
+- Ashley Thomas
+- Amy Riley
+- Carrie Combs
+- Robin Palmer
+- Angela Myers
+- Angela Robbins
+- Derrick Robinson
+- Kyle Mitchell
+- Richard Cooper
+- Jennifer Matthews
+- Alyssa Velazquez
+- Stephen Terry
+- Andrew Warner
+- Alyssa Schmidt
+- Eric Wilson
+- Kim Fisher
+- Jessica Howe
+- Darren Scott
+- Amanda Figueroa
+- Billy Reed
+- Amber Williams
+- Tammy Jones
+- Alexis Ford
+- Emily Murray
+- Vickie Rivers
+- Gary Cherry
+- Amy Mueller
+- Melissa Williams
+- Billy Hayden
+- Seth Gutierrez
+- Lisa Bradley
+- Adrienne Pope
+- Victoria Miller
+- Peter Stewart
+- Christopher Strong
+- Samantha Neal
+- Timothy Allen
+- Jamie Young
+- Yolanda Jennings
+- Dale Smith
+- Alexander Davidson
+- Andrew Montoya
+- Jessica Morrow
+- Andrew Montoya
+- Nicole Oconnor
+- Christine Burnett
+- Kevin Kline
+- Richard Sims

@@ -1,0 +1,276 @@
+### PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Social Network
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The purpose of this dataset is to model a social network of people and their relationships.
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: The dataset is intended for social network analysis and entity linking.
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The dataset was created to represent the relationships between people in a social network.
+Data Collection:
+* Source of the data: Real-world data
+* Time frame when it was collected/made: The data was collected over a period of time, with the earliest creation date being 1970-01-22 and the latest being 2023-11-19
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not specified in the provided information.
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a full dataset
+Distribution and Maintenance:
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+* Q10: How many people are in the dataset?
+Q10-Ans: There are 61 people in the dataset.
+* Q11: How many relationships are in the dataset?
+Q11-Ans: There are 31 relationships in the dataset.
+* Q12: What is the earliest and latest creation date of the relationships in the dataset?
+Q12-Ans: The earliest creation date of the relationships is 1970-01-22 and the latest is 2023-11-19.
+* Q13: What is the distribution of relationships by year?
+Q13-Ans: The distribution of relationships by year is as follows:
+  - 1970: 5
+  - 1971: 2
+  - 1972: 2
+  - 1973: 3
+  - 1974: 4
+  - 1975: 3
+  - 1976: 4
+  - 1977: 4
+  - 1978: 3
+  - 1979: 3
+  - 1980: 3
+  - 1981: 3
+  - 1982: 3
+  - 1983: 2
+  - 1984: 2
+  - 1985: 2
+  - 1986: 2
+  - 1987: 2
+  - 1988: 4
+  - 1989: 3
+  - 1990: 3
+  - 1991: 2
+  - 1992: 2
+  - 1993: 2
+  - 1994: 2
+  - 1995: 2
+  - 1996: 3
+  - 1997: 2
+  - 1998: 4
+  - 1999: 4
+  - 2000: 3
+  - 2001: 4
+  - 2002: 3
+  - 2003: 2
+  - 2004: 2
+  - 2005: 1
+  - 2006: 2
+  - 2007: 3
+  - 2008: 3
+  - 2009: 3
+  - 2010: 4
+  - 2011: 2
+  - 2012: 3
+  - 2013: 2
+  - 2014: 3
+  - 2015: 3
+  - 2016: 3
+  - 2017: 1
+  - 2018: 2
+  - 2019: 1
+  - 2020: 1
+  - 2021: 2
+  - 2022: 0
+  - 2023: 3
+* Q14: What is the most common year for relationship creation?
+Q14-Ans: The most common year for relationship creation is 1977, with 4 relationships.
+
+Relationships:
+* The dataset contains relationships between 61 people.
+* The relationships are dated from 1970-01-22 to 2023-11-19.
+* The distribution of relationships by year is provided above.
+* The most common year for relationship creation is 1977, with 4 relationships.
+
+People:
+* There are 61 people in the dataset.
+* The dataset includes people with the following names: 
+  - Aaron
+  - Abigail
+  - Adam
+  - Alan
+  - Alexandra
+  - Alan
+  - Alyssa
+  - Amy
+  - Andrew
+  - Angela
+  - Anna
+  - Anthony
+  - April
+  - Ashley
+  - Barbara
+  - Ben
+  - Benjamin
+  - Beverly
+  - Brian
+  - Brandi
+  - Brandon
+  - Bryan
+  - Brooke
+  - Bryan
+  - Cameron
+  - Carol
+  - Carla
+  - Caroline
+  - Carrie
+  - Charles
+  - Chris
+  - Christopher
+  - Christopher
+  - Cody
+  - Colleen
+  - Crystal
+  - Cynthia
+  - Daniel
+  - David
+  - Deanna
+  - Deborah
+  - Debra
+  - Derek
+  - Diana
+  - Donna
+  - Donald
+  - Elizabeth
+  - Erin
+  - Frank
+  - George
+  - Gloria
+  - Guy
+  - Hannah
+  - Heather
+  - Herbert
+  - Hunter
+  - Isaac
+  - Isaiah
+  - James
+  - Janice
+  - Jason
+  - Jay
+  - Jennifer
+  - Jenna
+  - Jeremy
+  - Jesse
+  - Jill
+  - John
+  - Jonathan
+  - Joseph
+  - Joshua
+  - Judith
+  - Julie
+  - Justin
+  - Kayla
+  - Kelly
+  - Kenneth
+  - Kim
+  - Kimberly
+  - Kyle
+  - Laura
+  - Lauren
+  - Leslie
+  - Linda
+  - Lisa
+  - Lorraine
+  - Luis
+  - Manu
+  - Manuel
+  - Margaret
+  - Marcus
+  - Mark
+  - Matthew
+  - Megan
+  - Melissa
+  - Michael
+  - Michelle
+  - Mike
+  - Misty
+  - Nathan
+  - Nicholas
+  - Nicole
+  - Noah
+  - Oscar
+  - Patricia
+  - Paul
+  - Patrick
+  - Peter
+  - Phillip
+  - Rachel
+  - Rebecca
+  - Rhonda
+  - Richard
+  - Ricky
+  - Robert
+  - Robin
+  - Roger
+  - Ronald
+  - Ryan
+  - Sandra
+  - Sarah
+  - Sara
+  - Scott
+  - Sean
+  - Shane
+  - Sheri
+  - Stacy
+  - Stephanie
+  - Stephen
+  - Steven
+  - Stuart
+  - Tamara
+  - Thomas
+  - Timothy
+  - Tiffany
+  - Tom
+  - Tracy
+  - Travis
+  - Victor
+  - Vincent
+  - William
+  - Willie
+  - Zachary
+* The earliest and latest creation dates for people in the dataset are 1970-01-22 and 2023-11-19, respectively.
+* The distribution of people by year is as follows:
+  - 1970: 5
+  - 1971: 2
+  - 1972: 2
+  - 1973: 3
+  - 1974: 4
+  - 1975: 3
+  - 1976: 4
+  - 1977: 4
+  - 1978: 3
+  - 1979: 3
+  - 1980: 3
+  - 1981: 3
+  - 1982: 3
+  - 1983: 2
+  - 1984: 2
+  - 1985: 2
+  - 1986: 2
+  - 1987: 2
+  - 1988: 4
+  - 1989: 3
+  - 1990: 3
+  - 1991: 2
+  - 1992:

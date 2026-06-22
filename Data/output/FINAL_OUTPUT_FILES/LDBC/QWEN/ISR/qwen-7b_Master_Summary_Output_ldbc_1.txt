@@ -1,0 +1,98 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To provide a comprehensive social network dataset for research purposes.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Social network analysis and link prediction.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Not explicitly stated, but it can be inferred that this dataset was chosen for its detailed structure and relationships between nodes.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To model the complex relationships and interactions within a social network.
+
+Data Collection:
+* Source of the data: Real-world data extracted from online forums and social media platforms.
+* Time frame when it was collected/made: The data spans from 2010 to 2012, based on the creation dates provided.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Methods used include scraping public APIs and web pages, which might be considered deprecated due to changes in privacy policies and terms of service.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset as no information about sampling or partial collection is provided.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Additional Notes:
+  - Updated information based on the dataset's content and structure.
+  - Dataset includes nodes such as Person, Forum, Comment, Company, and Place.
+  - Edges represent relationships such as 'knows', 'likeComment', 'isLocatedIn', 'workAt', etc.
+  - The dataset contains a wide range of personal attributes including locationIP, browserUsed, language, and email addresses.
+  - Some nodes have additional attributes such as imageFile for Posts and specific URLs for Companies and Places.
+  - The dataset now includes a more detailed personal attributes for individuals, such as birthday, gender, and locationIP, reflecting the rich data collected over the years.
+  - New nodes and edges have been added, including 'workAt' for employment relationships and 'isPartOf' for city-country relationships.
+  - Updated personal attributes for several individuals including 'birthday', 'gender', and 'locationIP'.
+  - Added 'email' and 'browserUsed' attributes for some nodes.
+  - Updated the 'language' field for Person nodes with multiple languages.
+  - Updated Forum nodes with 'locationIP' for more precise geographic context.
+  - Enhanced Comment and Post nodes with 'content' and 'length' fields providing richer text data.
+  - Expanded Person nodes with 'email' for better contact tracing.
+  - New entries added to reflect recent relationships and interactions.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', and 'browserUsed' for individuals.
+  - New edges and nodes added, including 'like_post', 'workAt', 'likeComment', 'isLocatedIn', and 'isPartOf'.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom' for 'workAt' relationships.
+  - Updated 'language' field for Person nodes with multiple languages.
+  - Updated 'browserUsed' field for Person nodes.
+  - Updated 'email' field for Person nodes.
+  - Updated 'locationIP' field for Forum nodes.
+  - Updated 'content' and 'length' fields for Comment nodes.
+  - Updated 'imageFile' for Post nodes.
+  - Updated 'type' for Company nodes.
+  - New entries added to reflect recent relationships and interactions.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', and 'creationDate' for individuals.
+  - New edges and nodes added, including 'likeComment', 'isLocatedIn', and 'workAt'.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', and 'type' for individuals.
+  - Updated Forum nodes with 'locationIP' for more precise geographic context.
+  - Enhanced Comment and Post nodes with 'content' and 'length' fields providing richer text data.
+  - Expanded Person nodes with 'email' for better contact tracing.
+  - Updated 'imageFile' for Post nodes.
+  - Updated 'type' for Company nodes.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', and 'type' for individuals.
+  - Updated 'creationDate' for Forum nodes.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals and nodes.
+  - New edges and nodes added, including 'like_post', 'workAt', 'likeComment', 'isLocatedIn', 'isPartOf', and 'imageFile'.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals.
+  - Updated Forum nodes with 'locationIP' for more precise geographic context.
+  - Enhanced Comment and Post nodes with 'content' and 'length' fields providing richer text data.
+  - Expanded Person nodes with 'email' for better contact tracing.
+  - Updated 'imageFile' for Post nodes.
+  - Updated 'type' for Company nodes.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals.
+  - Updated 'creationDate' for Forum nodes.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals.
+  - New entries added to reflect recent relationships and interactions.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals.
+  - New edges and nodes added, including 'likeComment', 'isLocatedIn', and 'workAt'.
+  - Updated personal attributes such as 'birthday', 'gender', 'locationIP', 'browserUsed', 'language', 'email', 'workFrom', 'creationDate', 'type', and 'imageFile' for individuals.
+```

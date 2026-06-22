@@ -1,0 +1,157 @@
+### PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The purpose of the creation of this dataset is not specified.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: The intended task is not specified.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The reason behind the modeling of this graph/dataset is not specified.
+
+Data Collection:
+* Source of the data: The source of the data is not specified.
+* Time frame when it was collected/made: The time frame is not specified.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not specified.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a sample dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: None
+
+Additional Information:
+* Number of nodes: 50
+* Number of edges: 50
+* Edge type: knows
+* Average degree of nodes: 2
+* Average distance between nodes: Not calculated
+* Age of oldest edge: 1970-04-12
+* Age of newest edge: 2023-10-06
+* Age range of edges: 53 years
+* Average creation date of edges: 1995-09-25
+* Average age of edges: 28.4 years
+* Average creation date of oldest edge: 1970-04-12
+* Average creation date of newest edge: 2023-10-06
+* Q32: Oldest person's id: 12837
+Q32-Ans: 12837
+* Q33: Newest person's id: 96928
+Q33-Ans: 96928
+* Q34: Average creation date of all edges: 1995-09-25
+Q34-Ans: 1995-09-25
+* Q35: Number of edges per year: 1.6
+Q35-Ans: 1.6
+* Q36: Average creation date of edges with id 12837 and 96928: 1990-06-17 and 2023-09-08
+Q36-Ans: 1990-06-17 and 2023-09-08
+* Q37: Average age of edges with id 12837 and 96928: 33.3 years
+Q37-Ans: 33.3 years
+* Q38: Number of edges with creation date before 2000: 16
+Q38-Ans: 16
+* Q39: Number of edges with creation date after 2020: 10
+Q39-Ans: 10
+* Q40: Average creation date of all people: 1995-09-25
+Q40-Ans: 1995-09-25
+* Q41: Average age of all people: 28.4 years
+Q41-Ans: 28.4 years
+* Q42: Most common first name of people with id 12837 and 96928: Christy and Gregory
+Q42-Ans: Christy and Gregory
+* Q43: Most common last name of people with id 12837 and 96928: Hall and Long
+Q43-Ans: Hall and Long
+* Q44: Number of people with first name Jason: 3
+Q44-Ans: 3
+* Q45: Number of people with first name James: 4
+Q45-Ans: 4
+* Q46: Number of people with last name Johnson: 4
+Q46-Ans: 4
+* Q47: Number of people with last name Smith: 1
+Q47-Ans: 1
+* Q48: Average age of edges with creation date in 1970: 1970-04-12
+Q48-Ans: 1970-04-12
+* Q49: Average age of edges with creation date in 2023: 2023-09-08
+Q49-Ans: 2023-09-08
+* Q50: Number of edges with creation date in 1970: 1
+Q50-Ans: 1
+* Q51: Number of edges with creation date in 2023: 2
+Q51-Ans: 2
+* Q52: Number of people with last name Lopez: 1
+Q52-Ans: 1
+* Q53: Number of people with first name Sarah: 1
+Q53-Ans: 1
+* Q54: Number of people with first name Vanessa: 2
+Q54-Ans: 2
+* Q55: Number of edges with type "knows" before 2000: 16
+Q55-Ans: 16
+* Q56: Number of edges with type "knows" after 2020: 10
+Q56-Ans: 10
+* Q57: Average creation date of edges with type "knows" before 2000: 1974-12-04
+Q57-Ans: 1974-12-04
+* Q58: Average creation date of edges with type "knows" after 2020: 2021-07-17
+Q58-Ans: 2021-07-17
+* Q59: Average age of nodes: 1995-09-25
+Q59-Ans: 1995-09-25
+* Q60: Number of nodes with age before 2000: 16
+Q60-Ans: 16
+* Q61: Number of nodes with age after 2020: 10
+Q61-Ans: 10
+* Q62: Average age of nodes with id 12837 and 96928: 1990-06-17 and 2023-09-08
+Q62-Ans: 1990-06-17 and 2023-09-08
+* Q63: Most common first name of nodes with id 12837 and 96928: Christy and Gregory
+Q63-Ans: Christy and Gregory
+* Q64: Most common last name of nodes with id 12837 and 96928: Hall and Long
+Q64-Ans: Hall and Long
+* Q65: Average age of edges with type "knows" in 1970: 1970-04-12
+Q65-Ans: 1970-04-12
+* Q66: Average age of edges with type "knows" in 2023: 2023-09-08
+Q66-Ans: 2023-09-08
+* Q67: Number of edges with type "knows" in 1970: 1
+Q67-Ans: 1
+* Q68: Number of edges with type "knows" in 2023: 2
+Q68-Ans: 2
+* Q69: Number of people with first name Michael: 7
+Q69-Ans: 7
+* Q70: Number of people with first name David: 2
+Q70-Ans: 2
+* Q71: Number of people with last name Brown: 2
+Q71-Ans: 2
+* Q72: Number of people with last name White: 1
+Q72-Ans: 1
+* Q73: Average age of edges with creation date in 1995: 1995-06-10
+Q73-Ans: 1995-06-10
+* Q74: Average age of edges with creation date in 2000: 2000-06-11
+Q74-Ans: 2000-06-11
+* Q75: Number of edges with creation date in 1995: 3
+Q75-Ans: 3
+* Q76: Number of edges with creation date in 2000: 3
+Q76-Ans: 3
+* Q77: Average age of nodes with first name Michael: 1995-06-10
+Q77-Ans: 1995-06-10
+* Q78: Average age of nodes with first name David: 1992-11-29
+Q78-Ans: 1992-11-29
+* Q79: Number of nodes with first name Michael: 7
+Q79-Ans: 7
+* Q80: Number of nodes with first name David: 2
+Q80-Ans: 2

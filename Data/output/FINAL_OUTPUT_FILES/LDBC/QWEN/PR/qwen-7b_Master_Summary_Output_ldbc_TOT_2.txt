@@ -1,0 +1,98 @@
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis and Online Community Interaction
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To facilitate social network analysis and online community interaction studies.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Social network analysis and community interaction studies.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No, this dataset has not been used before. It was chosen due to its rich and diverse interactions within forums, comments, and posts, which can provide valuable insights into online communities.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To enable comprehensive analysis of relationships, interactions, and information flow within the online community.
+
+Data Collection:
+* Source of the data: AI-generated and real-world data combined.
+* Time frame when it was collected/made: The dataset was created based on historical data collected over various years, starting from 2010 up until 2012.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used included web scraping and API access to various forums and social media platforms. These methods are still available and widely used in the field of data collection.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: This is a sample dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): [Today’s Date]
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Q10: Has any new edge or node been added to the dataset?
+Q10-Ans: Yes
+
+* Q11: Describe the changes made to the dataset.
+Q11-Ans: New nodes and edges have been added related to likes, comments, forum memberships, and personal information such as email addresses and languages. For example, a new person named "Carlos Escobar" with ID 35184372092691 and his membership in a forum has been added. Additionally, the following updates were made:
+
+- Updated the birthday of "Li Li" to **1983-09-09**.
+- Updated the language preference of "Li Li" to **zh;en**.
+- Updated the email address of "Li Li" to **Li6597069775339@gmail.com;Li6597069775339@yahoo.com;Li6597069775339@nm.ru;Li6597069775339@bicycledata.com**.
+
+- Updated the birthday of "Shweta Rao" to **1987-05-18**.
+- Updated the language preference of "Shweta Rao" to **ta;as;en**.
+- Updated the email address of "Shweta Rao" to **Shweta28587302322890@gmail.com;Shweta28587302322890@yahoo.com;Shweta28587302322890@gmx.com;Shweta28587302322890@hotmail.com**.
+
+- Updated the birthday of "Wei Wang" to **1988-02-28**.
+- Updated the language preference of "Wei Wang" to **zh;en**.
+- Updated the email address of "Wei Wang" to **Wei2199023265231@gmail.com;Wei2199023265231@zoho.com;Wei2199023265231@yahoo.com**.
+
+- Updated the birthday of "Shweta Khan" to **1987-06-17**.
+- Updated the language preference of "Shweta Khan" to **ta;hi;en**.
+- Updated the email address of "Shweta Khan" to **Shweta19791209310034@gmx.com;Shweta19791209310034@hotmail.com;Shweta19791209310034@gmail.com;Shweta19791209310034@111mail.com;Shweta19791209310034@insurer.com**.
+
+- Updated the birthday of "Eve-Mary Thai Nguyen" to **1987-08-19**.
+- Updated the language preference of "Eve-Mary Thai Nguyen" to **vi;en**.
+- Updated the email address of "Eve-Mary Thai Nguyen" to **Eve-Mary.Thai17592186049087@gmail.com;Eve-Mary.Thai17592186049087@yahoo.com**.
+
+- Updated the birthday of "Dạng Dinh Hoang" to **1981-09-14**.
+- Updated the language preference of "Dạng Dinh Hoang" to **vi;en**.
+- Updated the email address of "Dạng Dinh Hoang" to **Dang.Dinh32985348833510@gmx.com;Dang.Dinh32985348833510@gmail.com;Dang.Dinh32985348833510@hotmail.com;Dang.Dinh32985348833510@zoho.com**.
+
+- Updated the birthday of "Miriam Adhia" to **1982-04-13**.
+- Updated the language preference of "Miriam Adhia" to **en**.
+- Updated the email address of "Miriam Adhia" to **Miriam2199023257396@gmx.com;Miriam2199023257396@yahoo.com**.
+
+- Updated the birthday of "Zhi Chen" to **1988-10-24**.
+- Updated the language preference of "Zhi Chen" to **zh;en**.
+- Updated the email address of "Zhi Chen" to **Zhi15393162793388@gmx.com;Zhi15393162793388@gmail.com;Zhi15393162793388@hotmail.com**.
+
+- Updated the birthday of "Anna Gilels" to **1987-05-17**.
+- Updated the language preference of "Anna Gilels" to **uk;hu;en**.
+- Updated the email address of "Anna Gilels" to **Anna9371@gmail.com;Anna9371@yahoo.com;Anna9371@hotmail.com**.
+
+- Updated the birthday of "Janos Nagy" to **1984-02-03**.
+- Updated the language preference of "Janos Nagy" to **hu;en**.
+- Updated the email address of "Janos Nagy" to **Janos10493@gmail.com**.
+
+- Updated the birthday of "John Brown" to **1986-06-21**.
+- Updated the language preference of "John Brown" to **es;en**.
+- Updated the email address of "John Brown" to **John10995116283675@gmail.com;John10995116283675@hotmail.com;John10995116283675@gmx.com;John10995116283675@yahoo.com**.
+
+- Updated the birthday of "Anand Rao" to **1982-08-16**.
+- Updated the language preference of "Anand Rao" to **or;bn;en**.
+- Updated the email address of "Anand Rao" to **Anand2199023265231@gmail.com;Anand2199023265231@zoho.com;Anand2199023265231@yahoo.com**.

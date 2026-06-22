@@ -1,0 +1,47 @@
+### PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To model social connections among individuals
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Path Query
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To analyze and query social relationships
+
+Data Collection:
+* Source of the data: Social networks and other public sources
+* Time frame when it was collected/made: Not specified
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The data was collected through social networks and other public sources. Methods are still available.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Q10: Are there any new nodes or edges added in this chunk?
+Q10-Ans: Yes
+
+* Q11: If yes in Q10-Ans, provide details of new nodes and edges.
+Q11-Ans: The chunk adds 30 new 'knows' relationships between pairs of people. Each relationship includes a 'creationDate' indicating when the relationship was established.

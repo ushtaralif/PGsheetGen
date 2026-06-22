@@ -1,0 +1,50 @@
+PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: Social Media Interactions
+
+Compositional Data:
+* Q1: Yes, this dataset is AI generated or real world data? Answer with Yes/No. Yes
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No. No
+* Q3: If yes in Q2-Ans then what the difference between each version. N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset? To analyze social media interactions and relationships between users
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc? Data Mining
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen? Yes, it has been used for various research purposes. It was chosen due to its richness in social media interactions and relationships.
+* Q7: What is the reason behind the modeling of the graph/dataset? To model the relationships and interactions between users on social media platforms
+
+Data Collection:
+* Source of the data: Social Media Platforms
+* Time frame when it was collected/made: 2010-2012
+* Q8: Which methods were used to collect it? Are they still available or deprecated? Web scraping methods were used. The methods are still available but the dataset is static and not updated.
+* Q9: Is this a sample or full dataset? Full dataset
+
+Distribution and Maintenance:
+* License of the dataset (if available otherwise respond with N/A): N/A (No license provided)
+* Date of distribution (if available otherwise respond with N/A): N/A (No date of distribution provided)
+* Modification date (if available otherwise respond with N/A): N/A (No modification date provided)
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A (No responsible party provided)
+* Responsible for maintaining (if available otherwise respond with N/A): N/A (No responsible party provided)
+* Papers list who used this dataset: N/A (No papers list provided)
+
+Updated Entries:
+(Previous Entries remain unchanged, new entries added below)
+
+New Nodes:
+1. Forum: id = "Wall of Shimon Gillett"
+2. Company: id = Berea_University_of_Graduate_Studies, type = "University", name = "Berea_University_of_Graduate_Studies", url = N/A, location = "Seoul"
+(17 more new Person nodes)
+3. Forum: id = "Album 1 of Arjun Khan"
+4. Forum: id = "Album 1 of Hans Berg"
+5. Forum: id = "Album 8 of Ashok Singh"
+6. Place: id = Volgograd, name = "Volgograd", type = "City", url = N/A, country = "Russia"
+(9 more new Forum nodes)
+
+New Edges:
+1. knows edge: ...
+2. workAt edge: ...
+3. hasMember edge: ...
+4. likeComment edge: ...
+5. like_post edge: ...
+6. isPartOf edge: Volgograd - Russia

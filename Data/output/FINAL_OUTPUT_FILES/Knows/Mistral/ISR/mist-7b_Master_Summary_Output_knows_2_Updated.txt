@@ -1,0 +1,251 @@
+PG-Sheet Summary
+
+Executive Summary:
+*     Dataset Domain: People and their relationships (knows)
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To create a graph of people and their relationships (knows)
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data Mining
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes, it can be used for various data mining tasks related to social networks and relationships.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To model the relationships (knows) between people.
+
+Data Collection:
+* Source of the data: Real world data
+* Time frame when it was collected/made: Varies for each entry, dates provided in the dataset
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Not specified in the dataset
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+---
+
+NODE TYPES:
+
+NODE TYPE: Person
+  • Label
+  • firstName
+  • id
+  • lastName
+
+=== EDGE TYPES ===
+
+EDGE TYPE: knows
+  • creationDate
+  • type
+
+RULES:
+• Each entry is a triple: Source Node → Edge → Target Node
+• Never invent new fields
+• Missing fields mean NULL
+• Follow schema strictly
+
+---
+
+DATA:
+
+[
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "75797",
+      "firstName": "Carrie",
+      "lastName": "Nunez"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1971-12-09"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "91149",
+      "firstName": "Christopher",
+      "lastName": "Gonzalez"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "61749",
+      "firstName": "Jeanette",
+      "lastName": "Foster"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1996-04-18"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "66960",
+      "firstName": "Michael",
+      "lastName": "Walker"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "98881",
+      "firstName": "Brittany",
+      "lastName": "Carter"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "2015-01-30"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "76960",
+      "firstName": "Joseph",
+      "lastName": "Graham"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "83633",
+      "firstName": "Christine",
+      "lastName": "Edwards"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1984-10-17"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "48839",
+      "firstName": "Vincent",
+      "lastName": "King"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "13138",
+      "firstName": "John",
+      "lastName": "Cochran"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1999-02-01"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "89907",
+      "firstName": "Harold",
+      "lastName": "Whitaker"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "8585",
+      "firstName": "Ashley",
+      "lastName": "Thomas"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1970-04-09"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "81903",
+      "firstName": "Angela",
+      "lastName": "Jones"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "53122",
+      "firstName": "Amy",
+      "lastName": "Riley"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1997-05-31"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "81443",
+      "firstName": "Cynthia",
+      "lastName": "Morgan"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "89189",
+      "firstName": "Carrie",
+      "lastName": "Combs"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "2022-12-30"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "8257",
+      "firstName": "Lisa",
+      "lastName": "Jones"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "26683",
+      "firstName": "Robin",
+      "lastName": "Palmer"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "2017-03-05"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "25633",
+      "firstName": "Julia",
+      "lastName": "Blevins"
+    }
+  },
+  {
+    "Source node": {
+      "Label": "Person",
+      "id": "40178",
+      "firstName": "Angela",
+      "lastName": "Myers"
+    },
+    "Edge": {
+      "type": "knows",
+      "creationDate": "1976-01-03"
+    },
+    "Target node": {
+      "Label": "Person",
+      "id": "75791",
+      "firstName": "Dana",
+      "lastName

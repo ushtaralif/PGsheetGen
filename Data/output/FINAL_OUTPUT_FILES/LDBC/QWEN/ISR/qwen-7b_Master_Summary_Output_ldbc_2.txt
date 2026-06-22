@@ -1,0 +1,65 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain: Social Network Analysis and Community Forums
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: N/A
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To provide a comprehensive dataset for social network analysis, community forum activities, and knowledge sharing.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining, Q/A, entity linking, and path query.
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes. This dataset was chosen because it provides detailed information about users' interactions within forums, which can be valuable for various analytical tasks.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The graph model helps to visualize and analyze relationships between users, comments, posts, and forums.
+
+Data Collection:
+* Source of the data: Real-world data from various social networks and forums.
+* Time frame when it was collected/made: Data spans from 2010 to 2012.
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used are still available and relevant for collecting similar types of data.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset.
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): 2023-10-29
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+* Additional Notes:
+Additional notes regarding the graph updates:
+- Updated the language field for Person node with ID 30786325581170 to "pl;en".
+- Updated the language field for Person node with ID 26388279074288 to "pt;en".
+- Updated the language field for Person node with ID 15393162789203 to "ar;fr;en".
+- Updated the language field for Person node with ID 10995116283889 to "zh;th;en".
+- Updated the language field for Person node with ID 2199023258370 to "en;es".
+- Updated the language field for Person node with ID 2199023262937 to "zh;en".
+- Updated the language field for Person node with ID 3486 to "es;de;en".
+- Updated the language field for Person node with ID 6597069767858 to "zh;en".
+- Updated the language field for Person node with ID 5320 to "or;mr;en".
+- Updated the language field for Person node with ID 7437 to "vi;en".
+- Updated the language field for Person node with ID 2199023264600 to "sv;en".
+- Updated the language field for Person node with ID 28587302323289 to "es;en".
+- Updated the language field for Person node with ID 21990232556167 to "ar;en".
+- Updated the language field for Person node with ID 13194139540475 to "zh;en".
+- Updated the language field for Person node with ID 17592186046112 to "zh;en".
+- Updated the language field for Person node with ID 19791209301023 to "zh;en".
+```

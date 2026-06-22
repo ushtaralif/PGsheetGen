@@ -1,0 +1,80 @@
+```plaintext
+PG-Sheet Summary
+Executive Summary:
+*     Dataset Domain:
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: N/A
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To create a comprehensive network of relationships among people.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Entity linking and path query
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: N/A
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To represent social networks and analyze connections and interactions among individuals.
+
+Data Collection:
+* Source of the data: Real-world data
+* Time frame when it was collected/made: Varies among entries (from 1970 to 2023)
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: Manual collection; methods are not specified but are assumed to be still available as the dataset is real-world based.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Additional Notes:
+* The dataset includes edges representing relationships 'knows' with details on the 'creationDate'.
+** Updated Information:**
+- The dataset now includes relationships collected from 1970 to 2023, covering various time periods.
+- The dataset captures a wide range of individual relationships, reflecting diverse interactions over several decades.
+- The dataset reflects relationships among individuals across different years, starting from 1970 up to 2023, including specific dates such as 1970-01-12, 1972-05-19, 1975-01-30, 1977-01-01, 1979-06-20, 1980-07-22, 1982-06-10, 1984-03-10, 1986-01-19, 1987-10-08, 1988-07-19, 1988-11-15, 1990-03-19, 1990-08-31, 1991-08-15, 1994-07-19, 1995-07-19, 1997-12-13, 1998-08-08, 1998-12-13, 2000-12-08, 2002-04-14, 2002-10-29, 2004-10-23, 2006-08-28, 2008-12-05, 2011-02-01, 2012-02-14, 2013-09-23, 2014-12-30, 2016-09-27, 2017-04-09, 2019-04-28, 2020-03-16, 2022-05-25, 2023-02-03, 2023-06-30.
+- The dataset contains detailed information about the creation date of each relationship, providing insights into when these connections were formed, with dates ranging from 1970-01-12 to 2023-06-30.
+- Updated information on the dataset's time frame and specific years covered has been included.
+- The dataset now includes relationships from 1970 to 2023, reflecting connections formed across multiple decades with precise dates.
+- The dataset includes additional relationships formed as late as 2023, such as:
+  - Tyler Wu (id: 73620) and Jasmin Moore (id: 76146) on 2020-12-25,
+  - Eric Foster (id: 95188) and John Walters (id: 44187) on 1987-07-09,
+  - Sydney Holden (id: 36080) and Michael Harrison (id: 50832) on 1973-09-14,
+  - Christopher Allen (id: 53059) and Ann Jones (id: 26271) on 1973-06-12,
+  - Patrick Goodman (id: 90596) and Michael Brown (id: 19705) on 2012-04-05,
+  - Amanda Hernandez (id: 73439) and Kimberly Pham (id: 15436) on 1997-07-15,
+  - Susan Rivers (id: 80838) and Denise White (id: 79013) on 1981-06-20,
+  - Jessica Evans (id: 41048) and Maria Holder (id: 79567) on 1984-07-18,
+  - Julie Harding (id: 26006) and Craig Lewis (id: 44183) on 2003-10-19,
+  - Heidi Franklin (id: 37715) and Yvonne Wright (id: 27327) on 1978-07-19,
+  - Frank Anderson (id: 20616) and Jacob Dickerson (id: 90091) on 1998-08-17,
+  - Ethan Conley (id: 94472) and Scott Hanson (id: 23765) on 1995-02-24,
+  - Cynthia Green (id: 65709) and Jeffrey Moore (id: 55136) on 1992-02-14,
+  - Kathleen Wilson (id: 73809) and Jerry Fox (id: 81229) on 2007-04-04,
+  - Julian Gomez (id: 63616) and Benjamin Moore (id: 12714) on 2006-05-07,
+  - Dean Jones (id: 76135) and Leah Moore (id: 45014) on 1982-10-31,
+  - Alexis Cross (id: 90537) and Teresa Abbott (id: 59974) on 1994-08-15,
+  - Edwin Ryan (id: 35772) and Melinda Hayes (id: 15538) on 2021-09-30,
+  - Charles Gonzales (id: 1880) and Daniel Taylor (id: 42317) on 2006-01-03,
+  - James Jefferson (id: 54289) and Jonathan Erickson (id: 52457) on 2003-10-31,
+  - Samuel Stewart (id: 24764) and Lauren Carter (id: 78696) on 2010-07-16,
+  - Angela Perry (id: 4125) and Jessica Salinas (id: 11397) on 1972-04-12,
+  - Lindsey Harrison (id: 62621) and Brandon Cole (id: 65630) on 1982-08-04,
+  - Jeffery Craig (id: 793

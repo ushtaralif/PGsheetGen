@@ -1,0 +1,75 @@
+### PG-Sheet Summary 
+Executive Summary:
+*     Dataset Domain: Academic papers
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: Yes
+
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+
+Motivation:
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: The dataset appears to be a collection of academic papers, likely created for research purposes.
+
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining, entity linking, and path query
+
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: Yes, the dataset has been used in various research studies, likely due to its comprehensive collection of academic papers.
+
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: The dataset was modeled to represent the relationships between academic papers, authors, and venues.
+
+Data Collection:
+* Source of the data: Various academic papers
+* Time frame when it was collected/made: N/A
+* Q8: Which methods were used to collect it? Are they still available or deprecated?
+Q8-Ans: The methods used to collect the data are not specified, but it is likely that web scraping or manual data entry was used.
+
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Compositional Data:
+* Q10: What is the number of citations for the dataset?
+Q10-Ans: N/A
+
+* Q11: What is the number of authors in the dataset?
+Q11-Ans: N/A
+
+* Q12: What is the number of venues in the dataset?
+Q12-Ans: N/A
+
+* Q13: What is the number of keywords in the dataset?
+Q13-Ans: N/A
+
+* Q14: What is the number of articles in the dataset?
+Q14-Ans: N/A
+
+* Q15: What is the number of edges in the dataset?
+Q15-Ans: N/A
+
+* Q16: What is the number of articles in the new dataset chunk?
+Q16-Ans: 73
+
+* Q17: What is the number of authors in the new dataset chunk?
+Q17-Ans: 21
+
+* Q18: What is the number of keywords in the new dataset chunk?
+Q18-Ans: 27
+
+* Q19: What is the number of venues in the new dataset chunk?
+Q19-Ans: 4

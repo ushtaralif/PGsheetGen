@@ -1,0 +1,265 @@
+### PG-Sheet Summary 
+
+Executive Summary:
+*     Dataset Domain: Social Network
+
+Compositional Data:
+* Q1: Does this dataset rely on external sources i.e, AI generated or real world data? Answer with Yes/No.
+Q1-Ans: No
+* Q2: Does the splits of the dataset available in the repository? Answer with Yes/No.
+Q2-Ans: No
+* Q3: If yes in Q2-Ans then what the difference between each version.
+Q3-Ans: N/A
+* Q4: Purpose of the creation of dataset?
+Q4-Ans: To create a social network graph of people and their relationships.
+* Q5: Which task was intended to solve with this dataset, i.e., data mining, Q/A, entity linking, path query etc?
+Q5-Ans: Data mining and entity linking
+* Q6: Has this dataset been used before? If yes? Why this dataset was chosen?
+Q6-Ans: No
+* Q7: What is the reason behind the modeling of the graph/dataset?
+Q7-Ans: To analyze and understand social relationships between individuals.
+
+Data Collection:
+* Source of the data: Unknown
+* Time frame when it was collected/made: The creation dates in the dataset range from 1970-01-12 to 2023-12-10.
+* Q8: Which methods were used to collect it? Are they still available or deprecated? 
+Q8-Ans: Unknown
+* Q9: Is this a sample or full dataset?
+Q9-Ans: Full dataset
+
+Distribution and Maintenance:
+
+* License of the dataset (if available otherwise respond with N/A): N/A
+* Date of distribution (if available otherwise respond with N/A): N/A
+* Modification date (if available otherwise respond with N/A): N/A
+* Responsible for hosting the dataset (if available otherwise respond with N/A): N/A
+* Responsible for maintaining (if available otherwise respond with N/A): N/A
+* Papers list who used this dataset: N/A
+
+Updated Q10: What is the total number of relationships in the dataset?
+Q10-Ans: 40
+
+Updated Q11: What is the earliest creation date in the dataset?
+Q11-Ans: 1970-01-12
+
+Updated Q12: What is the latest creation date in the dataset?
+Q12-Ans: 2023-12-10
+
+Updated Q13: What is the total number of people in the dataset?
+Q13-Ans: 62
+
+Updated Q14: What is the distribution of people by first name in the dataset?
+Q14-Ans:
+- Alan: 0
+- Amanda: 1
+- Andrew: 0
+- Angela: 2
+- April: 0
+- Ashley: 1
+- Beth: 0
+- Billy: 0
+- Brittany: 1
+- Carol: 1
+- Catherine: 0
+- Charles: 0
+- Christopher: 5
+- Daniel: 2
+- Danielle: 1
+- David: 2
+- Dawn: 0
+- Deborah: 0
+- Derek: 0
+- Diana: 0
+- Elizabeth: 0
+- Emily: 0
+- Eric: 4
+- Erica: 0
+- Erik: 1
+- Ethan: 0
+- Frank: 0
+- Gary: 1
+- George: 1
+- Gregory: 1
+- Hannah: 0
+- HECTOR: 0
+- Heather: 0
+- Henry: 0
+- Isaac: 0
+- James: 1
+- Jane: 0
+- Janice: 0
+- Jared: 0
+- Jason: 0
+- Jennifer: 10
+- Jessica: 2
+- Jesus: 0
+- Joe: 0
+- John: 0
+- Jonathan: 1
+- Joseph: 9
+- Joshua: 0
+- Julie: 0
+- Justin: 0
+- Kari: 0
+- Karen: 1
+- Kathryn: 0
+- Kelly: 0
+- Kevin: 7
+- Kim: 0
+- Kimberly: 1
+- Kristina: 0
+- Kristy: 0
+- Kyle: 1
+- Laura: 1
+- Lauren: 0
+- Leslie: 0
+- Louis: 0
+- Madison: 0
+- Marc: 0
+- Mark: 0
+- Maria: 0
+- Margaret: 0
+- Megan: 1
+- Michael: 9
+- Michelle: 2
+- Natalie: 0
+- Nathan: 1
+- Nicholas: 1
+- Paige: 1
+- Rachel: 0
+- Ryan: 1
+- Samuel: 0
+- Sandra: 0
+- Sean: 0
+- Shelby: 0
+- Shirley: 0
+- Stephanie: 0
+- Tamara: 0
+- Thomas: 1
+- Theresa: 0
+- Troy: 1
+- Victoria: 0
+- William: 6
+- Zachary: 1
+
+Updated Q15: What is the distribution of people by last name in the dataset?
+Q15-Ans:
+- Allen: 0
+- Alvarez: 0
+- Ashby: 0
+- Ashcroft: 0
+- Asher: 0
+- Ashly: 0
+- Avila: 0
+- Bailey: 1
+- Barrett: 0
+- Berg: 0
+- Bonilla: 0
+- Brown: 0
+- Bullock: 0
+- Caldwell: 0
+- Carter: 1
+- Castillo: 1
+- Clark: 1
+- Cooley: 0
+- Copeland: 1
+- Craig: 0
+- Cruz: 1
+- Delacruz: 1
+- Donaldson: 0
+- Edwards: 1
+- Estrada: 1
+- Flores: 0
+- Francis: 0
+- Garcia: 0
+- Gallegos: 0
+- Greene: 0
+- Hines: 0
+- Herrera: 2
+- Hester: 0
+- Hill: 0
+- Holmes: 0
+- Johnson: 2
+- Jones: 1
+- Kennedy: 0
+- Lee: 0
+- Lewis: 0
+- Lopez: 0
+- Love: 0
+- Martinez: 0
+- Matthews: 0
+- McDonald: 0
+- Mcgee: 0
+- Mendoza: 1
+- Merritt: 0
+- Miller: 0
+- Mitchell: 0
+- Mullen: 0
+- Nguyen: 0
+- Obrien: 0
+- Owens: 0
+- Payton: 0
+- Price: 0
+- Rivas: 0
+- Robins: 0
+- Rodriguez: 1
+- Schultz: 0
+- Smith: 6
+- Snyder: 0
+- Strickland: 0
+- Sutton: 0
+- Thomas: 0
+- Turner: 0
+- Vasquez: 0
+- Walker: 1
+- Webb: 0
+- Weiss: 0
+- White: 1
+- Williams: 2
+
+Updated Q16: What is the total number of people with the first name "John" in the dataset?
+Q16-Ans: 0
+
+Updated Q17: What is the total number of people with the last name "Johnson" in the dataset?
+Q17-Ans: 2
+
+Updated Q18: What is the total number of people with the last name "Williams" in the dataset?
+Q18-Ans: 2
+
+Updated Q19: What is the total number of people with the first name "Michael" in the dataset?
+Q19-Ans: 9
+
+Updated Q20: What is the total number of people with the last name "Smith" in the dataset?
+Q20-Ans: 6
+
+Updated Q21: What is the total number of people with the first name "Kevin" in the dataset?
+Q21-Ans: 7
+
+Updated Q22: What is the total number of people with the last name "Herrera" in the dataset?
+Q22-Ans: 2
+
+Updated Q23: What is the total number of people with the last name "Walker" in the dataset?
+Q23-Ans: 1
+
+Updated Q24: What is the total number of people with the first name "Matthew" in the dataset?
+Q24-Ans: 0
+
+Updated Q25: What is the total number of people with the last name "Garcia" in the dataset?
+Q25-Ans: 0
+
+Updated Q26: What is the total number of people with the last name "Rodriguez" in the dataset?
+Q26-Ans: 1
+
+Updated Q27: What is the total number of people with the first name "Jessica" in the dataset?
+Q27-Ans: 2
+
+Updated Q28: What is the total number of people with the last name "Mendoza" in the dataset?
+Q28-Ans: 1
+
+Updated Q29: What is the total number of people with the first name "Trevor" in the dataset?
+Q29-Ans: 0
+
+Updated Q30: What is the total number of people with the last name "Cooper" in the dataset?
+Q30-Ans: 0
+
+Updated Q31:
