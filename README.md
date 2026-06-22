@@ -11,8 +11,9 @@ Scripts for generating, sampling, and analyzing property graph datasets
 
 ## Repository Structure
 
+```
 Scripts/
-  prompting_gpt.py                  - GPT-based prompting for LDBC and Knows dataset
+  prompting_gpt.py                  - GPT-based prompting for LDBC and Knows dataset 
   prompting_gpt_dblp.py             - GPT prompting on DBLP data
   prompting_llm_dblp_ISR.py         - ISR strategy on DBLP
   prompting_llm_dblp_MPR.py         - MPR strategy on DBLP
@@ -34,6 +35,8 @@ data_analysis/
 
 Data/
 Contains initial PGsheet template and final PGsheet templates by each models across 3 runs.
+
+```
 
 ## License
 
