@@ -7,7 +7,8 @@ graph data using large language models (LLMs).
 ## Overview
 
 Scripts for generating, sampling, and analyzing property graph datasets
-(DBLP, LDBC, and Knows) using LLM-based prompting strategies.
+(DBLP, LDBC, and Knows) using LLM-based prompting strategies. 
+See the PG-Sheet example template here: https://github.com/paprika-repository/pgsheets-template
 
 ## Repository Structure
 
